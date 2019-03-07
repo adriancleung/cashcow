@@ -1,7 +1,7 @@
-# Adrian Leung (3062472)
-# Project Test
-# initials.py
-# leunga35@mymacewan.ca
+# Adrian Leung
+# Cash Cow Project
+# project.py
+# adrian.leung@ualberta.ca
 
 import os
 import json
@@ -349,125 +349,6 @@ def load_nearby(route_data, enforcement_data, nearby):
                 nearby.append(loc)
                 
     return nearby
-                
-#def display_data_graphically(route_data, enforcement_data, nearby):
-    # Purpose:
-    # Parameters:
-    # Return:
-    
-#    route_counter = [0]
-#    enforcement_counter = [0]
-#    nearby_counter = [0]
-#    route_lst = []
-#    enforcement_lst = []
-#    nearby_lst = []
-#    point_lst = []
-#    near_pt = []
-#    enforce_pt = []    
-    
-#    win = GraphWin('Enforcement Map', 750, 768)
-#    win.setCoords(-113.71360, 53.39595, -113.28323, 53.65785)
-#    background = Image(Point(-113.498415, 53.5269), 'background.gif')
-#    background.draw(win)
-#    text = '(r) toggle route; (n) toggle near; (o) toggle other; (q) quit'
-#    instructions = Text(Point(-113.498415, 53.401), text)
-#    instructions.setSize(20)
-#    instructions.setStyle('bold')
-#    instructions.draw(win)
-#    while True:
-#        user_input = win.getKey()
-#        if user_input == 'r':
-#            route_counter = toggle_route(route_data, route_counter, route_lst, 
-#                                         win)
-#        if user_input == 'n':
-#            nearby_counter = toggle_nearby(route_data, enforcement_data, nearby, 
-#                                    nearby_lst, nearby_counter, near_pt, win)
-#        if user_input == 'o':
-#            enforcement_counter = toggle_other(enforcement_data, 
-#                        enforcement_lst, enforcement_counter, enforce_pt, win)
-#        if user_input == 'q':
-#            win.close()
-#            break
-        
-#def toggle_route(route_data, route_counter, route_lst, win):
-    # Purpose:
-    # Parameters:
-    # Return:
-    
-#    if route_counter:
-#        for i in range(len(route_data) - 1):
-#            p1 = Point(route_data[i][0], route_data[i][1])
-#            p2 = Point(route_data[i+1][0], route_data[i+1][1])
-#            route = Line(p1, p2)
-#            route_lst.insert(0, route)
-#            route.setWidth(2)
-#            route.draw(win)
-#        route_counter = False
-#    else:
-#        for line in route_lst:
-#            route = line
-#            route.undraw()
-#        route_counter = True
-        
-#def toggle_nearby(route_data, enforcement_data, nearby, nearby_lst,
-#                  nearby_counter, near_pt, win):
-    # Purpose:
-    # Parameters:
-    # Return:
-    
-#    load_nearby(route_data, enforcement_data, nearby)
-    
-#    if nearby_counter:
-#        for loc in nearby:
-#            point = Point(float(loc[0]), float(loc[1]))
-#            near_pt.insert(0, point)
-#            dollar_nearby = Image(point, 'dollar_nearby.gif')
-#            nearby_lst.insert(0, dollar_nearby)
-#            dollar_nearby.draw(win)
-#            point.draw(win)
-#        nearby_counter = False
-#    else:
-#        for loc in nearby_lst:
-#            dollar_nearby = loc
-#            dollar_nearby.undraw()
-#        for pt in near_pt:
-#            point = pt
-#            point.undraw()
-#        nearby_counter = True
-    
-    #for points in route_data:
-    #    for loc in enforcement_data:
-    #        distance = metres_between(points, (float(loc[0]), 
-    #                                           float(loc[1])))
-    #        if distance <= 100:
-    #            point = Point(float(loc[0]), float(loc[1]))
-    #            dollar_nearby = Image(point, 'dollar_nearby.gif')
-    #            dollar_nearby.draw(win)
-    #            point.draw(win)
-                
-#def toggle_other(enforcement_data, enforcement_lst, enforcement_counter,
-#                 enforce_pt, win):
-    # Purpose:
-    # Parameters:
-    # Return:
-    
-#    if enforcement_counter:
-#        for loc in enforcement_data:
-#            point = Point(float(loc[0]), float(loc[1]))
-#            enforce_pt.insert(0, point)
-#            dollar_other = Image(point, 'dollar_other.gif')
-#            enforcement_lst.insert(0, dollar_other)
-#            dollar_other.draw(win)
-#            point.draw(win)
-#        enforcement_counter = False
-#    else:
-#        for loc in enforcement_lst:
-#            dollar_other = loc
-#            dollar_other.undraw()
-#        for pt in enforce_pt:
-#            point = pt
-#            point.undraw()
-#        enforcement_counter = True
 
 def display_data_graphically(route_data, enforcement_data, nearby):
     # Purpose: Shows a map in a gpraphical window
@@ -482,7 +363,7 @@ def display_data_graphically(route_data, enforcement_data, nearby):
     nearby_lst = []
     point_lst = []
     
-    win = GraphWin('Enforcement Map', 750, 768)
+    win = GraphWin('Cash Cow', 750, 768)
     win.setCoords(-113.71360, 53.39595, -113.28323, 53.65785)
     background = Image(Point(-113.498415, 53.5269), 'background.gif')
     background.draw(win)
