@@ -1,0 +1,1311 @@
+{
+  "meta" : {
+    "view" : {
+      "id" : "4cqz-cd52",
+      "name" : "Scheduled Photo Enforcement Zone Details - Map",
+      "averageRating" : 0,
+      "category" : "Transportation",
+      "createdAt" : 1501097777,
+      "description" : "This map is a combination of the spatial data that represents the Zones or the Operational Areas where Photo Radar Enforcement is scheduled to be conducted and the dataset that represents the centre points of each Zone or Operational Area where Photo Enforcement is scheduled to be conducted.  An enforcement unit can be found anywhere along the area of the Zone.  Designated Zones are continuously reviewed, revised, added, removed and otherwise updated in accordance to the guidelines for establishing a Zone for photo enforcement.  Automated enforcement is expected to be operating at the locations indicated. Please be advised that automated enforcement may be used at other locations within Edmonton as well. Locations selected for enforcement may be removed or added as determined by weather, road conditions, roadway closures or construction, equipment issues or other unforeseen circumstances.\r\n\r\nPlease refer to the FAQ the City has available in regards to Photo Enforcement.\r\n\r\nhttps://www.edmonton.ca/transportation/Mobile_Photo_Enforcement_FAQ.pdf",
+      "displayType" : "map",
+      "downloadCount" : 661,
+      "hideFromCatalog" : false,
+      "hideFromDataJson" : false,
+      "indexUpdatedAt" : 1505503592,
+      "licenseId" : "SEE_TERMS_OF_USE",
+      "moderationStatus" : true,
+      "newBackend" : false,
+      "numberOfComments" : 0,
+      "oid" : 26709468,
+      "provenance" : "official",
+      "publicationAppendEnabled" : true,
+      "publicationDate" : 1504293548,
+      "publicationGroup" : 14355114,
+      "publicationStage" : "published",
+      "rowsUpdatedAt" : 1505503575,
+      "rowsUpdatedBy" : "dhgx-s4x9",
+      "tableId" : 14436566,
+      "totalTimesRated" : 0,
+      "viewCount" : 115,
+      "viewLastModified" : 1504294126,
+      "viewType" : "tabular",
+      "columns" : [ {
+        "id" : -1,
+        "name" : "sid",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":sid",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "id",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":id",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "position",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":position",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : 318329101,
+        "name" : "Site ID",
+        "dataTypeName" : "number",
+        "description" : "A system generated number assigned to any newly created enforcement zone",
+        "fieldName" : "site_id",
+        "position" : 1,
+        "renderTypeName" : "number",
+        "tableColumnId" : 50945398,
+        "width" : 118,
+        "cachedContents" : {
+          "largest" : "7208",
+          "non_null" : 185,
+          "average" : "3986.481081081081",
+          "null" : 0,
+          "top" : [ {
+            "item" : "2294",
+            "count" : 20
+          }, {
+            "item" : "5371",
+            "count" : 19
+          }, {
+            "item" : "2578",
+            "count" : 18
+          }, {
+            "item" : "5047",
+            "count" : 17
+          }, {
+            "item" : "2499",
+            "count" : 16
+          }, {
+            "item" : "7062",
+            "count" : 15
+          }, {
+            "item" : "2671",
+            "count" : 14
+          }, {
+            "item" : "247",
+            "count" : 13
+          }, {
+            "item" : "7167",
+            "count" : 12
+          }, {
+            "item" : "5019",
+            "count" : 11
+          }, {
+            "item" : "5437",
+            "count" : 10
+          }, {
+            "item" : "5066",
+            "count" : 9
+          }, {
+            "item" : "2530",
+            "count" : 8
+          }, {
+            "item" : "2511",
+            "count" : 7
+          }, {
+            "item" : "2684",
+            "count" : 6
+          }, {
+            "item" : "5062",
+            "count" : 5
+          }, {
+            "item" : "5386",
+            "count" : 4
+          }, {
+            "item" : "2202",
+            "count" : 3
+          }, {
+            "item" : "5446",
+            "count" : 2
+          }, {
+            "item" : "2588",
+            "count" : 1
+          } ],
+          "smallest" : "247",
+          "sum" : "737499"
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "noCommas" : "true",
+          "align" : "right"
+        }
+      }, {
+        "id" : 318329102,
+        "name" : "Road Name",
+        "dataTypeName" : "text",
+        "description" : "The name of the road along which the enforcement zone is located",
+        "fieldName" : "road_name",
+        "position" : 2,
+        "renderTypeName" : "text",
+        "tableColumnId" : 50945399,
+        "width" : 208,
+        "cachedContents" : {
+          "largest" : "YELLOWHEAD TRAIL NW",
+          "non_null" : 185,
+          "null" : 0,
+          "top" : [ {
+            "item" : "WHITEMUD DRIVE NW",
+            "count" : 20
+          }, {
+            "item" : "ANTHONY HENDAY DRIVE NW",
+            "count" : 19
+          }, {
+            "item" : "YELLOWHEAD TRAIL NW",
+            "count" : 18
+          }, {
+            "item" : "82 AVENUE NW",
+            "count" : 17
+          }, {
+            "item" : "132 AVENUE NW",
+            "count" : 16
+          }, {
+            "item" : "118 AVENUE NW",
+            "count" : 15
+          }, {
+            "item" : "101 STREET NW",
+            "count" : 14
+          }, {
+            "item" : "95 AVENUE NW",
+            "count" : 13
+          }, {
+            "item" : "11A AVENUE NW",
+            "count" : 12
+          }, {
+            "item" : "142 STREET NW",
+            "count" : 11
+          }, {
+            "item" : "107 AVENUE NW",
+            "count" : 10
+          }, {
+            "item" : "137 AVENUE NW",
+            "count" : 9
+          }, {
+            "item" : "KNOTTWOOD ROAD EAST NW",
+            "count" : 8
+          }, {
+            "item" : "144 AVENUE NW",
+            "count" : 7
+          }, {
+            "item" : "MILL WOODS ROAD EAST NW",
+            "count" : 6
+          }, {
+            "item" : "MILLBOURNE ROAD EAST NW",
+            "count" : 5
+          }, {
+            "item" : "36 AVENUE NW",
+            "count" : 4
+          }, {
+            "item" : "19A AVENUE NW",
+            "count" : 3
+          }, {
+            "item" : "RUTHERFORD ROAD SW",
+            "count" : 2
+          }, {
+            "item" : "100 STREET NW",
+            "count" : 1
+          } ],
+          "smallest" : "100 STREET NW"
+        },
+        "format" : { }
+      }, {
+        "id" : 318329103,
+        "name" : "Location Description",
+        "dataTypeName" : "text",
+        "description" : "A description of where along the Road Name that the enforcement zone is located.",
+        "fieldName" : "location_description",
+        "position" : 3,
+        "renderTypeName" : "text",
+        "tableColumnId" : 50945400,
+        "width" : 340,
+        "cachedContents" : {
+          "largest" : "WB Yellowhead Tr at 9320 Yellowhead Tr",
+          "non_null" : 185,
+          "null" : 0,
+          "top" : [ {
+            "item" : "SB 100 St btwn 160 - 157 Ave",
+            "count" : 20
+          }, {
+            "item" : "EB 38 Ave between 60 - 55 St",
+            "count" : 19
+          }, {
+            "item" : "NB 79 St between 82 - 90 Ave",
+            "count" : 18
+          }, {
+            "item" : "WB 12 Ave between 39 - 45 St",
+            "count" : 17
+          }, {
+            "item" : "NB 184 St between 57 Ave - Callingwood Rd",
+            "count" : 16
+          }, {
+            "item" : "EB Yellowhead Tr btwn 121 - 107 Street",
+            "count" : 15
+          }, {
+            "item" : "SB 163 St between 93 - 92 Ave",
+            "count" : 14
+          }, {
+            "item" : "WB Yellowhead Trail at 50 St",
+            "count" : 13
+          }, {
+            "item" : "NB 91 St between Anthony Henday Dr - 23 Ave",
+            "count" : 12
+          }, {
+            "item" : "NB 37 St between 30 - 34 Ave",
+            "count" : 11
+          }, {
+            "item" : "NB Millwoods Rd E between 17 - 18 Ave",
+            "count" : 10
+          }, {
+            "item" : "SB Rutherford Rd SW btwn 14 - 15 Ave SW",
+            "count" : 9
+          }, {
+            "item" : "WB 144 Ave between 77 - 79 St",
+            "count" : 8
+          }, {
+            "item" : "WB 142 Ave between 122 - 127 St",
+            "count" : 7
+          }, {
+            "item" : "NB 85 St between 93 - 95 Ave",
+            "count" : 6
+          }, {
+            "item" : "EB 40 Ave between 119 - 117 St",
+            "count" : 5
+          }, {
+            "item" : "SB Millbourne Rd E between Lee Ridge Rd - 36A Ave",
+            "count" : 4
+          }, {
+            "item" : "NB Ottewell Rd between 95 - 96A Ave",
+            "count" : 3
+          }, {
+            "item" : "SB 91 St between 88 - 86 Ave",
+            "count" : 2
+          }, {
+            "item" : "WB 51 Ave between 114 - 116 St",
+            "count" : 1
+          } ],
+          "smallest" : "EB 101 Ave between 70 - 67 St"
+        },
+        "format" : { }
+      }, {
+        "id" : 318329104,
+        "name" : "Direction",
+        "dataTypeName" : "text",
+        "description" : "The direction of traffic where the enforcement is being conducted",
+        "fieldName" : "direction",
+        "position" : 4,
+        "renderTypeName" : "text",
+        "tableColumnId" : 50945401,
+        "width" : 134,
+        "cachedContents" : {
+          "largest" : "WB-S",
+          "non_null" : 185,
+          "null" : 0,
+          "top" : [ {
+            "item" : "B",
+            "count" : 20
+          }, {
+            "item" : "SB-S",
+            "count" : 19
+          }, {
+            "item" : "WB-S",
+            "count" : 18
+          }, {
+            "item" : "EB-S",
+            "count" : 17
+          }, {
+            "item" : "NB-S",
+            "count" : 16
+          } ],
+          "smallest" : "B"
+        },
+        "format" : { }
+      }, {
+        "id" : 318329105,
+        "name" : "From Point",
+        "dataTypeName" : "text",
+        "description" : "A description of where the enforcement zone starts",
+        "fieldName" : "from_point",
+        "position" : 5,
+        "renderTypeName" : "text",
+        "tableColumnId" : 50945402,
+        "width" : 772,
+        "cachedContents" : {
+          "largest" : "YELLOWHEAD TRAIL NW  {Ramp North of Yellowhead Trail}",
+          "non_null" : 185,
+          "null" : 0,
+          "top" : [ {
+            "item" : "72 STREET NW",
+            "count" : 20
+          }, {
+            "item" : "113 STREET NW",
+            "count" : 19
+          }, {
+            "item" : "82 AVENUE NW {Service Road} {North Intersection}",
+            "count" : 18
+          }, {
+            "item" : "39 STREET NW",
+            "count" : 17
+          }, {
+            "item" : "57 AVENUE NW",
+            "count" : 16
+          }, {
+            "item" : "121 STREET NW [Northbound] {Right Turn Cutoff}",
+            "count" : 15
+          }, {
+            "item" : "93 AVENUE NW",
+            "count" : 14
+          }, {
+            "item" : "50 STREET NW [Northbound] {Exit Ramp}",
+            "count" : 13
+          }, {
+            "item" : "ANTHONY HENDAY DRIVE NW [Westbound] {Right Turn Cutoff} {North of}",
+            "count" : 12
+          }, {
+            "item" : "30 AVENUE NW",
+            "count" : 11
+          }, {
+            "item" : "17 AVENUE NW",
+            "count" : 10
+          }, {
+            "item" : "RUTHERFORD POINT SW {Cul de sac} {Address 1704}",
+            "count" : 9
+          }, {
+            "item" : "77 STREET NW",
+            "count" : 8
+          }, {
+            "item" : "122 STREET NW",
+            "count" : 7
+          }, {
+            "item" : "119 STREET NW [Northbound] {Right Turn Cutoff}",
+            "count" : 6
+          }, {
+            "item" : "LEE RIDGE ROAD NW  {North Intersection}",
+            "count" : 5
+          }, {
+            "item" : "95 AVENUE NW",
+            "count" : 4
+          }, {
+            "item" : "88 AVENUE NW  {West Intersection}",
+            "count" : 3
+          }, {
+            "item" : "116 STREET NW",
+            "count" : 2
+          }, {
+            "item" : "131 AVENUE NW",
+            "count" : 1
+          } ],
+          "smallest" : "100 AVENUE NW {Entrance Ramp}"
+        },
+        "format" : { }
+      }, {
+        "id" : 318329106,
+        "name" : "To Point",
+        "dataTypeName" : "text",
+        "description" : "A description of where the enforcment zone ends",
+        "fieldName" : "to_point",
+        "position" : 6,
+        "renderTypeName" : "text",
+        "tableColumnId" : 50945403,
+        "width" : 780,
+        "cachedContents" : {
+          "largest" : "YELLOWHEAD TRAIL NW [Westbound] {Collector-Distributor} {Ramp South of Yellowhead Trail}",
+          "non_null" : 185,
+          "null" : 0,
+          "top" : [ {
+            "item" : "157 AVENUE NW",
+            "count" : 20
+          }, {
+            "item" : "WOODVALE ROAD EAST NW",
+            "count" : 19
+          }, {
+            "item" : "90 AVENUE NW",
+            "count" : 18
+          }, {
+            "item" : "45 STREET NW",
+            "count" : 17
+          }, {
+            "item" : "CALLINGWOOD ROAD NW [Eastbound]",
+            "count" : 16
+          }, {
+            "item" : "107 STREET NW [Southbound]",
+            "count" : 15
+          }, {
+            "item" : "92 AVENUE NW",
+            "count" : 14
+          }, {
+            "item" : "50 STREET NW [Southbound] {Entrance Ramp}",
+            "count" : 13
+          }, {
+            "item" : "23 AVENUE NW [Eastbound] {Right Turn Cutoff} {South of 23 Avenue}",
+            "count" : 12
+          }, {
+            "item" : "34 AVENUE NW [Eastbound]",
+            "count" : 11
+          }, {
+            "item" : "18 AVENUE NW",
+            "count" : 10
+          }, {
+            "item" : "15 AVENUE SW",
+            "count" : 9
+          }, {
+            "item" : "79 STREET NW",
+            "count" : 8
+          }, {
+            "item" : "127 STREET NW",
+            "count" : 7
+          }, {
+            "item" : "95 AVENUE NW",
+            "count" : 6
+          }, {
+            "item" : "117 STREET NW",
+            "count" : 5
+          }, {
+            "item" : "36A AVENUE NW",
+            "count" : 4
+          }, {
+            "item" : "96A AVENUE NW",
+            "count" : 3
+          }, {
+            "item" : "86 AVENUE NW",
+            "count" : 2
+          }, {
+            "item" : "114 STREET NW",
+            "count" : 1
+          } ],
+          "smallest" : "102 AVENUE NW"
+        },
+        "format" : { }
+      }, {
+        "id" : 318329107,
+        "name" : "Speed Limit",
+        "dataTypeName" : "number",
+        "description" : "A speed limit that is being monitored and enforced (km/h)",
+        "fieldName" : "speed_limit",
+        "position" : 7,
+        "renderTypeName" : "number",
+        "tableColumnId" : 50945404,
+        "width" : 149,
+        "cachedContents" : {
+          "largest" : "100",
+          "non_null" : 185,
+          "average" : "52.37837837837838",
+          "null" : 0,
+          "top" : [ {
+            "item" : "50",
+            "count" : 20
+          }, {
+            "item" : "60",
+            "count" : 19
+          }, {
+            "item" : "100",
+            "count" : 18
+          }, {
+            "item" : "80",
+            "count" : 17
+          }, {
+            "item" : "90",
+            "count" : 16
+          }, {
+            "item" : "70",
+            "count" : 15
+          }, {
+            "item" : "40",
+            "count" : 14
+          }, {
+            "item" : "30",
+            "count" : 13
+          } ],
+          "smallest" : "30",
+          "sum" : "9690"
+        },
+        "format" : { }
+      }, {
+        "id" : 318329108,
+        "name" : "Latitude",
+        "dataTypeName" : "number",
+        "description" : "The latitude value for the centre of the enforcement zone",
+        "fieldName" : "latitude",
+        "position" : 8,
+        "renderTypeName" : "number",
+        "tableColumnId" : 50945405,
+        "width" : 129,
+        "cachedContents" : {
+          "largest" : "53.6471648637875",
+          "non_null" : 185,
+          "average" : "53.53111257446022",
+          "null" : 0,
+          "top" : [ {
+            "item" : "53.5514085527823",
+            "count" : 20
+          }, {
+            "item" : "53.4507394459104",
+            "count" : 19
+          }, {
+            "item" : "53.5216819479102",
+            "count" : 18
+          }, {
+            "item" : "53.4402924374762",
+            "count" : 17
+          }, {
+            "item" : "53.49358965611",
+            "count" : 16
+          }, {
+            "item" : "53.5814521921988",
+            "count" : 15
+          }, {
+            "item" : "53.5275390241082",
+            "count" : 14
+          }, {
+            "item" : "53.5824886205462",
+            "count" : 13
+          }, {
+            "item" : "53.4458073496193",
+            "count" : 12
+          }, {
+            "item" : "53.4618893058723",
+            "count" : 11
+          }, {
+            "item" : "53.4480965015541",
+            "count" : 10
+          }, {
+            "item" : "53.420101378148",
+            "count" : 9
+          }, {
+            "item" : "53.6069780173147",
+            "count" : 8
+          }, {
+            "item" : "53.604177969432",
+            "count" : 7
+          }, {
+            "item" : "53.5297504724853",
+            "count" : 6
+          }, {
+            "item" : "53.4762787439058",
+            "count" : 5
+          }, {
+            "item" : "53.4713870517891",
+            "count" : 4
+          }, {
+            "item" : "53.5343369453826",
+            "count" : 3
+          }, {
+            "item" : "53.5227115085624",
+            "count" : 2
+          }, {
+            "item" : "53.4883216437902",
+            "count" : 1
+          } ],
+          "smallest" : "53.4195878065228",
+          "sum" : "9903.2558262751416"
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "noCommas" : "false",
+          "precision" : "5",
+          "align" : "right"
+        }
+      }, {
+        "id" : 318329109,
+        "name" : "Longitude",
+        "dataTypeName" : "number",
+        "description" : "The longitude value for the centre of the enforcement zone",
+        "fieldName" : "longitude",
+        "position" : 9,
+        "renderTypeName" : "number",
+        "tableColumnId" : 50945406,
+        "width" : 144,
+        "cachedContents" : {
+          "largest" : "-113.396110239057",
+          "non_null" : 185,
+          "average" : "-113.5025606573272",
+          "null" : 0,
+          "top" : [ {
+            "item" : "-113.513024751889",
+            "count" : 20
+          }, {
+            "item" : "-113.427538127284",
+            "count" : 19
+          }, {
+            "item" : "-113.449059760333",
+            "count" : 18
+          }, {
+            "item" : "-113.405977926665",
+            "count" : 17
+          }, {
+            "item" : "-113.640165932339",
+            "count" : 16
+          }, {
+            "item" : "-113.515645674248",
+            "count" : 15
+          }, {
+            "item" : "-113.602746108927",
+            "count" : 14
+          }, {
+            "item" : "-113.418818053907",
+            "count" : 13
+          }, {
+            "item" : "-113.466358732711",
+            "count" : 12
+          }, {
+            "item" : "-113.398552421558",
+            "count" : 11
+          }, {
+            "item" : "-113.404555590061",
+            "count" : 10
+          }, {
+            "item" : "-113.536327929113",
+            "count" : 9
+          }, {
+            "item" : "-113.461816129378",
+            "count" : 8
+          }, {
+            "item" : "-113.536387348452",
+            "count" : 7
+          }, {
+            "item" : "-113.457480090443",
+            "count" : 6
+          }, {
+            "item" : "-113.536724546735",
+            "count" : 5
+          }, {
+            "item" : "-113.444145394938",
+            "count" : 4
+          }, {
+            "item" : "-113.436949983645",
+            "count" : 3
+          }, {
+            "item" : "-113.467441390861",
+            "count" : 2
+          }, {
+            "item" : "-113.527825356666",
+            "count" : 1
+          } ],
+          "smallest" : "-113.689556223533",
+          "sum" : "-20997.973721605537"
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "noCommas" : "false",
+          "precision" : "5",
+          "align" : "right"
+        }
+      }, {
+        "id" : 318329110,
+        "name" : "Geo Location",
+        "dataTypeName" : "location",
+        "description" : "The combined latitude/longitude values used to geo locate the centre of the enforcement zone for mapping purposes",
+        "fieldName" : "geo_location",
+        "position" : 10,
+        "renderTypeName" : "location",
+        "tableColumnId" : 50945407,
+        "width" : 244,
+        "cachedContents" : {
+          "largest" : {
+            "latitude" : "53.5180739353141",
+            "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+            "longitude" : "-113.471549449105"
+          },
+          "non_null" : 185,
+          "null" : 0,
+          "top" : [ {
+            "item" : {
+              "latitude" : "53.5514085527823",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "-113.513024751889"
+            },
+            "count" : 20
+          }, {
+            "item" : {
+              "latitude" : "53.4507394459104",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "-113.427538127284"
+            },
+            "count" : 19
+          }, {
+            "item" : {
+              "latitude" : "53.5216819479102",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "-113.449059760333"
+            },
+            "count" : 18
+          }, {
+            "item" : {
+              "latitude" : "53.4402924374762",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "-113.405977926665"
+            },
+            "count" : 17
+          }, {
+            "item" : {
+              "latitude" : "53.49358965611",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "-113.640165932339"
+            },
+            "count" : 16
+          }, {
+            "item" : {
+              "latitude" : "53.5814521921988",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "-113.515645674248"
+            },
+            "count" : 15
+          }, {
+            "item" : {
+              "latitude" : "53.5275390241082",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "-113.602746108927"
+            },
+            "count" : 14
+          }, {
+            "item" : {
+              "latitude" : "53.5824886205462",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "-113.418818053907"
+            },
+            "count" : 13
+          }, {
+            "item" : {
+              "latitude" : "53.4458073496193",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "-113.466358732711"
+            },
+            "count" : 12
+          }, {
+            "item" : {
+              "latitude" : "53.4618893058723",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "-113.398552421558"
+            },
+            "count" : 11
+          }, {
+            "item" : {
+              "latitude" : "53.4480965015541",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "-113.404555590061"
+            },
+            "count" : 10
+          }, {
+            "item" : {
+              "latitude" : "53.420101378148",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "-113.536327929113"
+            },
+            "count" : 9
+          }, {
+            "item" : {
+              "latitude" : "53.6069780173147",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "-113.461816129378"
+            },
+            "count" : 8
+          }, {
+            "item" : {
+              "latitude" : "53.604177969432",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "-113.536387348452"
+            },
+            "count" : 7
+          }, {
+            "item" : {
+              "latitude" : "53.5297504724853",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "-113.457480090443"
+            },
+            "count" : 6
+          }, {
+            "item" : {
+              "latitude" : "53.4762787439058",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "-113.536724546735"
+            },
+            "count" : 5
+          }, {
+            "item" : {
+              "latitude" : "53.4713870517891",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "-113.444145394938"
+            },
+            "count" : 4
+          }, {
+            "item" : {
+              "latitude" : "53.5343369453826",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "-113.436949983645"
+            },
+            "count" : 3
+          }, {
+            "item" : {
+              "latitude" : "53.5227115085624",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "-113.467441390861"
+            },
+            "count" : 2
+          }, {
+            "item" : {
+              "latitude" : "53.4883216437902",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+              "longitude" : "-113.527825356666"
+            },
+            "count" : 1
+          } ],
+          "smallest" : {
+            "latitude" : "53.5180739353141",
+            "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}",
+            "longitude" : "-113.471549449105"
+          }
+        },
+        "format" : {
+          "view" : "coords",
+          "align" : "left"
+        },
+        "subColumnTypes" : [ "human_address", "latitude", "longitude", "machine_address", "needs_recoding" ]
+      } ],
+      "displayFormat" : {
+        "bkgdLayers" : [ {
+          "layerKey" : "Google Roadmap",
+          "opacity" : 1
+        } ],
+        "disableGeolocator" : false,
+        "exclusiveLayers" : false,
+        "viewDefinitions" : [ {
+          "uid" : "self",
+          "highlightColor" : "#ddeaf0",
+          "color" : "#0000ff",
+          "plot" : {
+            "locationId" : 50945407,
+            "titleId" : 50945400,
+            "descriptionColumns" : [ {
+              "tableColumnId" : 50945404
+            } ]
+          },
+          "flyoutsNoLabel" : false,
+          "alias" : "Zone Details",
+          "opacity" : 1,
+          "plotStyle" : "point"
+        }, {
+          "uid" : "qaz3-nbjg",
+          "alias" : "Scheduled Zones",
+          "opacity" : 1
+        } ],
+        "legendDetails" : {
+          "showConditional" : true,
+          "position" : "topRight"
+        }
+      },
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "license" : {
+        "name" : "See Terms of Use"
+      },
+      "metadata" : {
+        "jsonQuery" : {
+          "order" : [ {
+            "columnFieldName" : "site_id",
+            "ascending" : true
+          } ]
+        },
+        "rdfSubject" : "0",
+        "conditionalFormatting" : [ {
+          "condition" : {
+            "tableColumnId" : 50945404,
+            "_key" : "(50945404|EQUALS|110)",
+            "value" : 110,
+            "operator" : "EQUALS"
+          },
+          "color" : "#a64d79",
+          "description" : "110 km/h"
+        }, {
+          "condition" : {
+            "tableColumnId" : 50945404,
+            "_key" : "(50945404|EQUALS|100)",
+            "value" : 100,
+            "operator" : "EQUALS"
+          },
+          "color" : "#cc0000",
+          "description" : "100 km/h"
+        }, {
+          "condition" : {
+            "tableColumnId" : 50945404,
+            "_key" : "(50945404|EQUALS|90)",
+            "value" : 90,
+            "operator" : "EQUALS"
+          },
+          "color" : "#674ea7",
+          "description" : "90 km/h"
+        }, {
+          "condition" : {
+            "tableColumnId" : 50945404,
+            "_key" : "(50945404|EQUALS|80)",
+            "value" : 80,
+            "operator" : "EQUALS"
+          },
+          "color" : "#7f6000",
+          "description" : "80 km/h"
+        }, {
+          "condition" : {
+            "tableColumnId" : 50945404,
+            "_key" : "(50945404|EQUALS|70)",
+            "value" : 70,
+            "operator" : "EQUALS"
+          },
+          "color" : "#f1c232",
+          "description" : "70 km/h"
+        }, {
+          "condition" : {
+            "tableColumnId" : 50945404,
+            "_key" : "(50945404|EQUALS|60)",
+            "value" : 60,
+            "operator" : "EQUALS"
+          },
+          "color" : "#00ffff",
+          "description" : "60 km/h"
+        }, {
+          "condition" : {
+            "tableColumnId" : 50945404,
+            "_key" : "(50945404|EQUALS|50)",
+            "value" : 50,
+            "operator" : "EQUALS"
+          },
+          "color" : "#0000ff",
+          "description" : "50 km/h"
+        }, {
+          "condition" : {
+            "tableColumnId" : 50945404,
+            "_key" : "(50945404|EQUALS|40)",
+            "value" : 40,
+            "operator" : "EQUALS"
+          },
+          "color" : "#00ff00",
+          "description" : "40 km/h"
+        }, {
+          "condition" : {
+            "tableColumnId" : 50945404,
+            "_key" : "(50945404|EQUALS|30)",
+            "value" : 30,
+            "operator" : "EQUALS"
+          },
+          "color" : "#ffff00",
+          "description" : "30 km/h"
+        } ],
+        "custom_fields" : {
+          "Time Frame" : {
+            "Date Made Public" : "Jul 31, 2017",
+            "Update Frequency" : "Weekly",
+            "Period of Coverage" : "Jul 31, 2017 onward",
+            "Automated or Manual" : "Automated"
+          },
+          "Spatial" : {
+            "Coordinate System" : "WGS 84"
+          },
+          "General Information" : {
+            "Purpose" : "To share and to make the public aware of the Zones where Photo Enforcement can operate and the corresponding attributes associated to the Zone.",
+            "Internal or External" : "Internal",
+            "Primary Dataset or View" : "View"
+          }
+        },
+        "availableDisplayTypes" : [ "map", "table", "fatrow", "page" ],
+        "renderTypeConfig" : {
+          "visible" : {
+            "map" : true
+          }
+        }
+      },
+      "owner" : {
+        "id" : "dhgx-s4x9",
+        "displayName" : "opendata@edmonton.ca",
+        "lastNotificationSeenAt" : 1495823348,
+        "profileImageUrlLarge" : "/api/users/dhgx-s4x9/profile_images/LARGE",
+        "profileImageUrlMedium" : "/api/users/dhgx-s4x9/profile_images/THUMB",
+        "profileImageUrlSmall" : "/api/users/dhgx-s4x9/profile_images/TINY",
+        "roleName" : "administrator",
+        "screenName" : "opendata@edmonton.ca",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards", "manage_provenance", "create_story", "edit_story_title_desc", "create_story_copy", "delete_story", "manage_story_collaborators", "manage_story_visibility", "manage_story_public_version", "edit_story", "view_unpublished_story", "view_story", "view_all_dataset_status_logs", "use_data_connectors", "edit_others_stories", "view_stories_stats" ]
+      },
+      "query" : {
+        "filterCondition" : {
+          "type" : "operator",
+          "value" : "AND",
+          "children" : [ {
+            "type" : "operator",
+            "value" : "OR",
+            "metadata" : {
+              "tableColumnId" : {
+                "14355114" : 50945404
+              },
+              "operator" : "EQUALS",
+              "customValues" : [ [ 110 ], [ 100 ], [ 90 ], [ 80 ], [ 70 ], [ 60 ], [ 50 ], [ 40 ], [ 30 ] ]
+            }
+          } ],
+          "metadata" : {
+            "advanced" : true,
+            "unifiedVersion" : 2
+          }
+        },
+        "orderBys" : [ {
+          "ascending" : true,
+          "expression" : {
+            "columnId" : 318329101,
+            "type" : "column"
+          }
+        } ]
+      },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "dhgx-s4x9",
+        "displayName" : "opendata@edmonton.ca",
+        "lastNotificationSeenAt" : 1495823348,
+        "profileImageUrlLarge" : "/api/users/dhgx-s4x9/profile_images/LARGE",
+        "profileImageUrlMedium" : "/api/users/dhgx-s4x9/profile_images/THUMB",
+        "profileImageUrlSmall" : "/api/users/dhgx-s4x9/profile_images/TINY",
+        "roleName" : "administrator",
+        "screenName" : "opendata@edmonton.ca",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards", "manage_provenance", "create_story", "edit_story_title_desc", "create_story_copy", "delete_story", "manage_story_collaborators", "manage_story_visibility", "manage_story_public_version", "edit_story", "view_unpublished_story", "view_story", "view_all_dataset_status_logs", "use_data_connectors", "edit_others_stories", "view_stories_stats" ]
+      },
+      "tags" : [ "photo enforcement", "enforcement zone", "photo radar" ]
+    }
+  },
+  "data" : [ [ 179, "2279A1AC-F69E-484A-8F08-52BCD4C48690", 179, 1501605136, "393213", 1501605136, "393213", null, "2756", "82 Avenue NW", "WB 82 Ave between 91 - 95A St", "B", "WB 91 Street NW / EB 95A Street NW", "WB 95A Street NW / EB 91 Street NW", "50", "53.5180739353141", "-113.471549449105", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.5180739353141", "-113.471549449105", null, false ] ]
+, [ 184, "C706825B-9BEE-4B44-B120-CDA6458A4F06", 184, 1501605136, "393213", 1501605136, "393213", null, "2747", "87 Avenue NW", "WB 87 Ave between 119 St - Sask Dr", "B", "WB 119 Street NW / EB 120 Street NW", "WB Saskatchewan Drive NW / EB 119 Street NW", "50", "53.5229608411306", "-113.538282288592", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.5229608411306", "-113.538282288592", null, false ] ]
+, [ 192, "080B2C7C-60C5-436E-8478-C29E9B1FED8B", 192, 1501605308, "393213", 1501605308, "393213", null, "2715", "97 STREET NW", "SB 97 St between 116 - 114 Ave", "SB-S", "114 AVENUE NW", "116 AVENUE NW", "50", "53.5657869245564", "-113.491820777902", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.5657869245564", "-113.491820777902", null, false ] ]
+, [ 201, "4E56B898-D41F-4B1C-BC0A-D5B94066E742", 201, 1501605308, "393213", 1501605308, "393213", null, "7199", "WHITEMUD DRIVE NW", "WB Whitemud Dr between 50 - 75 St", "WB-S", "50 STREET NW [Southbound] {Entrance Ramp}", "75 STREET NW [Northbound] {Exit Ramp}", "60", "53.4863080002392", "-113.430418864523", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.4863080002392", "-113.430418864523", null, false ] ]
+, [ 202, "B6FFD96E-4735-423E-96EA-D5147204E958", 202, 1501605308, "393213", 1501605308, "393213", null, "2738", "66 STREET NW", "SB 66 St between Delwood Rd - 132 Ave", "SB-S", "134 AVENUE NW", "132 AVENUE NW", "50", "53.5939039853878", "-113.443058328947", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.5939039853878", "-113.443058328947", null, false ] ]
+, [ 207, "AB1015BE-73F6-4EF0-B21B-3BB7042AB257", 207, 1501605308, "393213", 1501605308, "393213", null, "2704", "101 AVENUE NW", "EB 101 Ave between 70 - 67 St", "B", "70 STREET NW", "67 STREET NW  {North of 101 Avenue}", "50", "53.5411925153939", "-113.433827065219", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.5411925153939", "-113.433827065219", null, false ] ]
+, [ 223, "C56679B8-2260-45AA-B0D6-3FA20FE8724F", 223, 1501605308, "393213", 1501605308, "393213", null, "2740", "102 AVENUE NW", "EB 102 Ave between 138 - 137 St", "B", "138 STREET NW  {West Intersection}", "137 STREET NW", "50", "53.5430397301481", "-113.559265058072", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.5430397301481", "-113.559265058072", null, false ] ]
+, [ 228, "DDAF5565-C0B0-46F3-ADA0-640D09CBBC05", 228, 1501605308, "393213", 1501605308, "393213", null, "2794", "156 STREET NW", "SB 156 St between 99 - 98 Ave", "B", "99 AVENUE NW  {West of 156 Street}", "98 AVENUE NW", "50", "53.5368340163235", "-113.590310182097", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.5368340163235", "-113.590310182097", null, false ] ]
+, [ 235, "512F0950-E079-4060-94D0-9E4265621AE7", 235, 1501605308, "393213", 1501605308, "393213", null, "7203", "ELLERSLIE ROAD SW", "EB Ellerslie Rd btwn James Mowatt Tr SW-Calgary Tr", "EB-S", "JAMES MOWATT TRAIL SW [Northbound] {Right Turn Cutoff}", "CALGARY TRAIL SW {Right Turn Cutoff}", "60", "53.4247874117536", "-113.505303533562", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.4247874117536", "-113.505303533562", null, false ] ]
+, [ 277, "5ACD8961-95B6-45A6-90D5-2B52FCDF4EC2", 277, 1501605308, "393213", 1501605308, "393213", null, "2755", "36 STREET NW", "SB 36 St between 144 - 139 Ave", "B", "144 AVENUE NW [Eastbound]", "139 AVENUE NW", "50", "53.6048526257564", "-113.396110239057", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.6048526257564", "-113.396110239057", null, false ] ]
+, [ 295, "5ED94CBD-DB6D-4A47-9801-A933506491CE", 295, 1501605308, "393213", 1501605308, "393213", null, "2739", "66 STREET NW", "NB 66 St between 132 - 134 Ave.", "NB-S", "132 AVENUE NW", "134 AVENUE NW", "50", "53.5938332032448", "-113.442850059851", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.5938332032448", "-113.442850059851", null, false ] ]
+, [ 306, "318835E5-0605-4C16-AB46-7BB164C94459", 306, 1501605308, "393213", 1501605308, "393213", null, "7198", "WHITEMUD DRIVE NW", "EB Whitemud Dr between 76 - 66 St", "EB-S", "91 STREET NW [Northbound] {Entrance Ramp}", "66 STREET NW [Northbound] {Entrance Ramp}", "60", "53.4850099773236", "-113.448016611513", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.4850099773236", "-113.448016611513", null, false ] ]
+, [ 310, "36C2F860-D707-4916-B8E7-853E2640EB0A", 310, 1501605308, "393213", 1501605308, "393213", null, "2765", "95 AVENUE NW", "EB 95 Ave between 163 - 160 St", "B", "163 STREET NW {Right Turn Cutoff} {East of}", "160 STREET NW", "50", "53.5315842406662", "-113.599809523513", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.5315842406662", "-113.599809523513", null, false ] ]
+, [ 316, "5584F838-668A-4C40-AA9D-54E35904AA06", 316, 1501605308, "393213", 1501605308, "393213", null, "7169", "ANTHONY HENDAY DRIVE NW", "EB Anthony Henday Dr between 66 St - Manning Dr", "EB-S", "66 STREET NW [Northbound] {Entrance Ramp}", "MANNING DRIVE NW [Northbound] {Collector-Distributor}", "100", "53.6408204302704", "-113.416542284773", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.6408204302704", "-113.416542284773", null, false ] ]
+, [ 318, "6F814EA0-52B8-4E1E-A721-30FC6BFBC3A4", 318, 1501605308, "393213", 1501605308, "393213", null, "2749", "95 AVENUE NW", "WB 95 Ave between 158 - 160 St", "B", "157 STREET NW", "160 STREET NW", "50", "53.5315562390811", "-113.595578776396", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.5315562390811", "-113.595578776396", null, false ] ]
+, [ 319, "8B462969-E90F-4FAB-A9C6-6C8D58FA0923", 319, 1501605308, "393213", 1501605308, "393213", null, "7208", "WHITEMUD DRIVE NW", "WB Whitemud Dr between 91 - 99 St", "WB-S", "91 STREET NW [Northbound] {Exit Ramp}", "CALGARY TRAIL NW {Exit Ramp}", "80", "53.4813478981247", "-113.476685619838", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.4813478981247", "-113.476685619838", null, false ] ]
+, [ 326, "0C375EDF-F03C-4032-AE83-04521349CCA4", 326, 1501605308, "393213", 1501605308, "393213", null, "2718", "97 STREET NW", "NB 97 St between 115 -117 Ave", "NB-S", "115 AVENUE NW", "117 AVENUE NW", "50", "53.5673022029854", "-113.491784458353", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.5673022029854", "-113.491784458353", null, false ] ]
+, [ 329, "590494F6-573C-42EB-94FA-B23246C73611", 329, 1501605308, "393213", 1501605308, "393213", null, "2729", "PRINCESS ELIZABETH AVENUE NW", "EB Princess Elizabeth Ave between 106 - 102 St", "B", "102 STREET NW", "106 STREET NW [Northbound]  {East of}", "50", "53.5680617825331", "-113.499162979903", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.5680617825331", "-113.499162979903", null, false ] ]
+, [ 335, "61E38004-E64D-461E-9285-D1904CB96CEC", 335, 1501605308, "393213", 1501605308, "393213", null, "2748", "50 STREET NW", "SB 50 St between 124 - 122 Ave", "B", "124 AVENUE NW", "122 AVENUE NW", "50", "53.5783320306863", "-113.41837578525", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.5783320306863", "-113.41837578525", null, false ] ]
+, [ 341, "8F487CE9-A874-4CC6-826D-F548D3A2D32F", 341, 1501605308, "393213", 1501605308, "393213", null, "2757", "163 STREET NW", "SB 163 St between 99 - 96A Ave", "B", "99 AVENUE NW", "96A AVENUE NW", "50", "53.5357094642683", "-113.602770709256", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.5357094642683", "-113.602770709256", null, false ] ]
+, [ 345, "545667F8-1359-474C-AFAB-D5B7632B39B6", 345, 1501605308, "393213", 1501605308, "393213", null, "2754", "36 STREET NW", "NB 36 St between 139 - 144 Ave", "B", "139 AVENUE NW", "144 AVENUE NW [Eastbound]", "50", "53.6048526257564", "-113.396110239057", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.6048526257564", "-113.396110239057", null, false ] ]
+, [ 368, "81AAF506-4208-40A7-90EB-307C196E484F", 368, 1501625112, "393213", 1501625112, "393213", null, "2797", "MEADOWLARK ROAD NW", "SB Meadowlark Rd between 90 - 88A Ave", "SB-S", "90 AVENUE NW", "MEADOWLARK TRANSIT CENTRE NW {Restricted Use} {West Intersection}", "50", "53.5225672693377", "-113.593744053162", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.5225672693377", "-113.593744053162", null, false ] ]
+, [ 382, "0315D23C-C624-43F6-B01D-CC9917D5FD9D", 382, 1501625112, "393213", 1501625112, "393213", null, "2737", "106 AVENUE NW", "WB 106 Ave between 65 - 67 St", "WB-S", "65 STREET NW", "67 STREET NW", "50", "53.5493353220003", "-113.431992236502", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.5493353220003", "-113.431992236502", null, false ] ]
+, [ 421, "918AD8C0-FDEF-4657-8DD3-7B80C6C5FA7D", 421, 1501870703, "393213", 1501870703, "393213", null, "7206", "STONY PLAIN ROAD NW", "WB Stony Plain Rd between 178 - 182 St", "WB-S", "178 STREET NW", "182 STREET NW", "60", "53.5413972913489", "-113.631898051983", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.5413972913489", "-113.631898051983", null, false ] ]
+, [ 427, "BF61FCFB-8C4B-41CA-8BB3-EF3A767C5D9C", 427, 1501870703, "393213", 1501870703, "393213", null, "387", "104 STREET NW", "SB 104 St Between Univ. Ave. - 73 Ave.", "B", "73 AVENUE NW {Dead end}", "UNIVERSITY AVENUE NW", "50", "53.510467075134", "-113.497670417131", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.510467075134", "-113.497670417131", null, false ] ]
+, [ 450, "1B15FD90-8F3A-49C4-B9E3-9E008F5ACA3D", 450, 1501870703, "393213", 1501870703, "393213", null, "2199", "GATEWAY BOULEVARD SW", "NB Gateway Blvd at Ellerslie Rd", "B", "GATEWAY BOULEVARD SW", "ELLERSLIE ROAD SW [Eastbound] {Exit Ramp}", "90", "53.4237459422418", "-113.492816186845", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.4237459422418", "-113.492816186845", null, false ] ]
+, [ 451, "3B85DD8B-17AB-46C9-A017-A96762D9582D", 451, 1501870703, "393213", 1501870703, "393213", null, "7177", "106 Avenue NW", "WB 106 Ave between Rowland Rd - 76 St", "B", "WB Roland Road NW / EB 76 Street NW", "WB 76 Street NW / EB 75 Street NW", "50", "53.5493888127349", "-113.442412799805", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.5493888127349", "-113.442412799805", null, false ] ]
+, [ 510, "50D22655-BC3F-4C39-B352-6622429EA0E6", 510, 1503688980, "393213", 1503688980, "393213", null, "2445", "142 STREET NW", "NB 142 St btwn 104A - 105 Ave", "B", "104A AVENUE NW", "105 AVENUE NW", "50", "53.5472537047111", "-113.565748339282", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.5472537047111", "-113.565748339282", null, false ] ]
+, [ 511, "BE575B65-5D0D-4AD9-8691-CC36492DE8F6", 511, 1503688980, "393213", 1503688980, "393213", null, "7044", "YELLOWHEAD TRAIL NW", "EB Yellowhead Tr at 215 St", "EB-S", "WINTERBURN ROAD NW [Southbound] {Exit Ramp}", "WINTERBURN ROAD NW [Northbound] {Entrance Ramp}", "100", "53.5700475007547", "-113.689556223533", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.5700475007547", "-113.689556223533", null, false ] ]
+, [ 512, "80FDC416-E158-4EE2-9ADA-AEE80091889E", 512, 1503688980, "393213", 1503688980, "393213", null, "7168", "170 STREET NW", "SB 170 St between 118 - 114 Ave", "SB-S", "118 AVENUE NW [Eastbound] {Right Turn Cutoff}", "114 AVENUE NW", "60", "53.566532484365", "-113.615420705601", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.566532484365", "-113.615420705601", null, false ] ]
+, [ 513, "11FCE290-9225-483B-8505-002D95700FA3", 513, 1503688980, "393213", 1503688980, "393213", null, "7196", "Anthony Henday Drive", "WB Anthony Henday Dr between 18 - 66 St", "WB-S", "18 Street NW", "66 Street NW", "100", "53.6375175207529", "-113.402337632178", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.6375175207529", "-113.402337632178", null, false ] ]
+, [ 515, "3E43ED61-418A-4CFD-B5F6-3984C1DEEE82", 515, 1503688980, "393213", 1503688980, "393213", null, "7099", "Saskatchewan Drive NW", "SB Sask Dr between 87 - University Ave", "B", "NB University Avenue NW / SB 87 Avenue NW", "NB 87 Avenue NW / SB University Avenue NW", "50", "53.5209044880399", "-113.538856759283", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.5209044880399", "-113.538856759283", null, false ] ]
+, [ 516, "2F337AB3-CB44-4836-B535-F845A62CB31A", 516, 1503688980, "393213", 1503688980, "393213", null, "2587", "51 AVENUE NW", "EB 51 Ave between 116 - 114 St", "EB-S", "116 STREET NW", "114 STREET NW", "50", "53.4882176128625", "-113.527821493427", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.4882176128625", "-113.527821493427", null, false ] ]
+, [ 518, "CCFFFE9B-0380-4E3A-B1F8-A14B3ECDE3A6", 518, 1503688980, "393213", 1503688980, "393213", null, "7141", "ANTHONY HENDAY DRIVE NW", "WB Anthony Henday Dr at Rabbit Hill Rd", "WB-S", "RABBIT HILL ROAD NW [Northbound] {Exit Ramp}", "RABBIT HILL ROAD NW [Northbound] {Entrance Ramp}", "100", "53.430797119072", "-113.582693506732", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.430797119072", "-113.582693506732", null, false ] ]
+, [ 519, "A7CC784C-0754-4917-B64B-381365C31D17", 519, 1503688980, "393213", 1503688980, "393213", null, "2528", "51 AVENUE NW", "EB 51 Ave between 122 - 116 St", "EB-S", "122 STREET NW [Northbound] {Right Turn Cutoff}", "116 STREET NW", "50", "53.4882339158325", "-113.536103931821", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.4882339158325", "-113.536103931821", null, false ] ]
+, [ 520, "893E6573-D32B-4DD8-9C0A-1056DE9461B9", 520, 1503688980, "393213", 1503688980, "393213", null, "2620", "50 STREET NW", "SB 50 St between Fulton Rd - 101A Ave", "SB-S", "FULTON ROAD NW", "102 AVENUE NW", "50", "53.5449329517724", "-113.41868119712", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.5449329517724", "-113.41868119712", null, false ] ]
+, [ 523, "E798B756-D507-4B34-9DBF-A9AE4551961D", 523, 1503688980, "393213", 1503688980, "393213", null, "2503", "82 AVENUE NW", "WB 82 Ave between 96 - 97 St", "WB-S", "96 STREET NW", "97 STREET NW", "50", "53.5180985354455", "-113.478202258825", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.5180985354455", "-113.478202258825", null, false ] ]
+, [ 524, "D8696701-F325-47DA-B976-B784D38F7DA6", 524, 1503688980, "393213", 1503688980, "393213", null, "2504", "82 AVENUE NW", "EB 82 Ave between 98 - 97 St", "EB-S", "98 STREET NW", "97 STREET NW", "50", "53.5179861709982", "-113.481253446853", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.5179861709982", "-113.481253446853", null, false ] ]
+, [ 526, "4150108D-2F67-45F3-AA23-1D77B12E47CA", 526, 1503688980, "393213", 1503688980, "393213", null, "2455", "FORT ROAD NW", "SB Fort Rd between 134 - 133 Avenue", "SB-S", "134 AVENUE NW", "133 AVENUE NW", "50", "53.5939415382405", "-113.428448372124", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.5939415382405", "-113.428448372124", null, false ] ]
+, [ 601, "11C6B000-A3E0-46EA-BAA8-AFFEDEF9E9BD", 601, 1503688980, "393213", 1503688980, "393213", null, "2701", "112 AVENUE NW", "EB 112 Ave btwn 55 - 53 St", "B", "55 STREET NW", "53 STREET NW", "50", "53.5672599568731", "-113.424605316051", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.5672599568731", "-113.424605316051", null, false ] ]
+, [ 528, "1E119F6B-9197-439A-8F12-81106A17DE41", 528, 1503688980, "393213", 1503688980, "393213", null, "7017", "ANTHONY HENDAY DRIVE NW", "SB Anthony Henday Dr. @ Yellowhead Tr.", "NB-S", "YELLOWHEAD TRAIL NW  {Ramp}", "YELLOWHEAD TRAIL NW [Eastbound] {Collector-Distributor}", "100", "53.5729852708746", "-113.661988735059", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.5729852708746", "-113.661988735059", null, false ] ]
+, [ 530, "E9F55DA8-E84B-4790-844B-D837D0665B88", 530, 1503688980, "393213", 1503688980, "393213", null, "7076", "YELLOWHEAD TRAIL NW", "WB Yellowhead Tr at 9320 Yellowhead Tr", "WB-S", "89 STREET NW", "97 STREET NW {Exit Ramp}", "70", "53.5813725999698", "-113.484176135183", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.5813725999698", "-113.484176135183", null, false ] ]
+, [ 533, "462A6F43-A8A6-4C12-BD69-A2237DD80F37", 533, 1503688980, "393213", 1503688980, "393213", null, "2519", "109 STREET NW", "NB 109 St between 108 - 110 Ave", "NB-S", "108 AVENUE NW", "110 AVENUE NW", "50", "53.5548435265103", "-113.508337437301", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.5548435265103", "-113.508337437301", null, false ] ]
+, [ 534, "75DA5D79-69DB-4AA5-8B02-D7DE395686D4", 534, 1503688980, "393213", 1503688980, "393213", null, "2610", "75 STREET NW", "NB 75 St between 92A - 94B Ave", "B", "92A AVENUE NW", "94B AVENUE NW", "60", "53.5300450859162", "-113.442890098601", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.5300450859162", "-113.442890098601", null, false ] ]
+, [ 535, "9C1A6F5A-6852-425E-B7CD-EFBC3F76237F", 535, 1503688980, "393213", 1503688980, "393213", null, "7013", "ANTHONY HENDAY DRIVE NW", "EB Anthony Henday Dr @ Ray Gibbon Dr", "NB-S", "184 STREET NW [Southbound] {Exit Ramp} {North Side}", "184 STREET NW [Northbound] {Entrance Ramp} {North Side}", "100", "53.5911385449838", "-113.64613646311", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.5911385449838", "-113.64613646311", null, false ] ]
+, [ 537, "C9A7C37F-8CD1-4273-AA43-896079022516", 537, 1503688980, "393213", 1503688980, "393213", null, "2616", "113A STREET NW", "SB 113A St between 132 - 130 Ave", "B", "132 AVENUE NW", "130 AVENUE NW", "50", "53.5908672206408", "-113.516549685019", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.5908672206408", "-113.516549685019", null, false ] ]
+, [ 538, "EBB29931-4C6A-40D6-ADBF-3F5F9C8F1C10", 538, 1503688980, "393213", 1503688980, "393213", null, "7126", "ANTHONY HENDAY DRIVE NW", "EB Anthony Henday Dr at Whitemud Creek", "EB-S", "ANTHONY HENDAY DRIVE NW [Eastbound]  {West Side}/ANTHONY HENDAY DRIVE NW [Eastbound] {Bridge} {Whitemud Creek}", "ANTHONY HENDAY DRIVE NW [Eastbound]  {East Side}/ANTHONY HENDAY DRIVE NW [Eastbound] {Bridge} {Whitemud Creek}", "100", "53.428461920221", "-113.562713755099", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.428461920221", "-113.562713755099", null, false ] ]
+, [ 539, "C1E5FAB5-C8AB-4196-A147-4CB33DD72B02", 539, 1503688980, "393213", 1503688980, "393213", null, "7018", "ANTHONY HENDAY DRIVE NW", "NB Anthony Henday Dr.  @ Yellowhead Tr.", "SB-S", "YELLOWHEAD TRAIL NW  {Ramp North of Yellowhead Trail}", "YELLOWHEAD TRAIL NW [Westbound] {Collector-Distributor} {Ramp South of Yellowhead Trail}", "100", "53.574285295259", "-113.661210005026", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.574285295259", "-113.661210005026", null, false ] ]
+, [ 541, "F5A289D6-4D7C-4EDD-8D9D-0EE304DD3934", 541, 1503688980, "393213", 1503688980, "393213", null, "7123", "112 AVENUE NW", "EB 112 Ave between 81 - 79 St", "B", "82 STREET NW", "79 STREET NW", "50", "53.5612154584755", "-113.464039815064", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.5612154584755", "-113.464039815064", null, false ] ]
+, [ 543, "F131DF8E-6AF6-42A2-9CAA-BADC81CC792D", 543, 1503688980, "393213", 1503688980, "393213", null, "2615", "113A STREET NW", "NB 113A St between 134 - 136 Ave", "NB-S", "134 AVENUE NW", "136 AVENUE NW", "50", "53.5967416394849", "-113.516565508201", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.5967416394849", "-113.516565508201", null, false ] ]
+, [ 544, "AE2BDD3B-300B-4D9C-B1C2-B438646DCE74", 544, 1503688980, "393213", 1503688980, "393213", null, "2481", "FORT ROAD NW", "NB Fort Rd between 71 - 68 St", "B", "71 STREET NW", "126A AVENUE NW", "50", "53.5827476541728", "-113.448317127432", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.5827476541728", "-113.448317127432", null, false ] ]
+, [ 546, "563ED054-90F1-4097-9C84-9F889A38F1DE", 546, 1503688980, "393213", 1503688980, "393213", null, "7081", "ANTHONY HENDAY DRIVE NW", "EB Anthony Henday Dr at 97 St", "EB-S", "97 STREET NW [Southbound] {Exit Ramp}", "97 STREET NW [Northbound] {Entrance Ramp}", "100", "53.6466838271315", "-113.489276387819", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.6466838271315", "-113.489276387819", null, false ] ]
+, [ 547, "B5AE75FC-CBED-4C70-9441-64ED3AB70C11", 547, 1503688980, "393213", 1503688980, "393213", null, "7075", "YELLOWHEAD TRAIL NW", "WB Yellowhead Tr at 7710 Yellowhead Tr", "WB-S", "FORT ROAD NW [Southbound] {Entrance Ramp}", "82 STREET NW [Northbound] {Exit Ramp}", "70", "53.5825071654083", "-113.459587832965", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.5825071654083", "-113.459587832965", null, false ] ]
+, [ 548, "EDF8A11D-685E-40F4-BE4D-C6EFAB14DF3F", 548, 1503688980, "393213", 1503688980, "393213", null, "2554", "MILL WOODS ROAD SOUTH NW", "WB Millwoods Rd S between 69 St - Knottwood Rd E", "B", "69 STREET NW", "KNOTTWOOD ROAD EAST NW", "50", "53.4458766115496", "-113.441229339086", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.4458766115496", "-113.441229339086", null, false ] ]
+, [ 550, "2B492D32-74B1-440D-8F31-887B1C7D0C45", 550, 1503688980, "393213", 1503688980, "393213", null, "7106", "91 STREET NW", "SB 91 St between 63 - 58 Ave", "SB-S", "63 AVENUE NW [Eastbound]", "58 AVENUE NW", "60", "53.4968897059128", "-113.467364595281", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.4968897059128", "-113.467364595281", null, false ] ]
+, [ 553, "C69F8569-D248-4CFB-803C-93E275D140C9", 553, 1503688980, "393213", 1503688980, "393213", null, "2685", "83 STREET NW", "NB 83 St between Whyte Ave - 86 Ave", "NB-S", "82 AVENUE NW [Westbound]", "86 AVENUE NW", "50", "53.5201555395001", "-113.455049226856", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.5201555395001", "-113.455049226856", null, false ] ]
+, [ 555, "F77DF313-1051-44EC-B5C4-0D7D01D53F21", 555, 1503688980, "393213", 1503688980, "393213", null, "2494", "142 STREET NW", "SB 142 St between 106 - 104 Ave", "B", "106 AVENUE NW  {North Intersection}", "104 AVENUE NW  {East of 142 Street}", "50", "53.5472309438828", "-113.565748463878", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.5472309438828", "-113.565748463878", null, false ] ]
+, [ 556, "C67FE001-C5B9-4F8B-910E-4FA3F2748CC2", 556, 1503688980, "393213", 1503688980, "393213", null, "2792", "STONY PLAIN ROAD NW", "WB Stony Plain Rd Between 180 - 182 St", "WB-S", "180 STREET NW", "182 STREET NW", "60", "53.5413681805682", "-113.634511357248", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.5413681805682", "-113.634511357248", null, false ] ]
+, [ 557, "7828E702-8D80-41BD-98F5-23BF95F642DA", 557, 1503688980, "393213", 1503688980, "393213", null, "2619", "50 STREET NW", "NB 50 St between 102 - 104A Ave", "NB-S", "101A AVENUE NW", "104A AVENUE NW", "50", "53.5449237722681", "-113.418428300524", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.5449237722681", "-113.418428300524", null, false ] ]
+, [ 558, "4BB7EF78-9434-46DA-8B91-E6A30D6916D3", 558, 1503688980, "393213", 1503688980, "393213", null, "2502", "82 AVENUE NW", "WB 82 Ave between 87 - 89 St", "B", "87 STREET NW/WHYTE AVENUE NW", "89 STREET NW", "50", "53.5180281449368", "-113.462873126177", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.5180281449368", "-113.462873126177", null, false ] ]
+, [ 560, "D8C1206E-EE0D-44F7-BD0C-DC8697EBE34A", 560, 1503688980, "393213", 1503688980, "393213", null, "2558", "156 STREET NW", "SB 156 St between 94 - 92 Ave", "B", "156 STREET NW {Service Road} {West Side North Intersection}", "92 AVENUE NW", "50", "53.5283796332996", "-113.590325119268", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.5283796332996", "-113.590325119268", null, false ] ]
+, [ 561, "75379E98-33BC-4989-A8E8-4568B852397A", 561, 1503688980, "393213", 1503688980, "393213", null, "2669", "127 Street NW", "NB 127 St between 135 - 137 Ave", "B", "WB 135 Avenue NW / EB 137 Avenue NW", "WB 137 Avenuw NW / EB 125 Avenue NW", "50", "53.5979775557534", "-113.541174756482", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.5979775557534", "-113.541174756482", null, false ] ]
+, [ 562, "79751CAB-2636-43E8-A276-B17FB7091A9D", 562, 1503688980, "393213", 1503688980, "393213", null, "2784", "WHITEMUD DRIVE NW", "WB Whitemud Dr between 50 - 75 St", "WB-S", "50 STREET NW [Southbound] {Entrance Ramp}", "75 STREET NW [Northbound] {Exit Ramp}", "60", "53.4863080002392", "-113.430418864523", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.4863080002392", "-113.430418864523", null, false ] ]
+, [ 563, "BDAD997C-F50D-4A46-A363-5CABA1577ED8", 563, 1503688980, "393213", 1503688980, "393213", null, "2775", "156 STREET NW", "SB 156 St between 109 - 108 Ave", "B", "109 AVENUE NW", "108 AVENUE NW", "50", "53.5533900596564", "-113.590384754943", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.5533900596564", "-113.590384754943", null, false ] ]
+, [ 564, "62D98FD1-FDDE-49B5-92EF-628F9FDFB3AA", 564, 1503688980, "393213", 1503688980, "393213", null, "7122", "ANTHONY HENDAY DRIVE NW", "NB Anthony Henday Dr north of Stony Plain Rd", "SB-S", "100 AVENUE NW {Entrance Ramp}", "87 AVENUE NW {Exit Ramp}", "100", "53.546789667881", "-113.658698130146", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.546789667881", "-113.658698130146", null, false ] ]
+, [ 566, "5E8957D8-39B3-40A1-A2E0-B442D5E9DEA5", 566, 1503688980, "393213", 1503688980, "393213", null, "2452", "144 AVENUE NW", "EB 144 Avenue between 79 - 77 Street", "EB-S", "79 STREET NW", "77 STREET NW", "50", "53.6068495110246", "-113.461816823523", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.6068495110246", "-113.461816823523", null, false ] ]
+, [ 569, "5B109243-B688-4A04-9B0E-C43CE274A61D", 569, 1503688980, "393213", 1503688980, "393213", null, "2683", "85 STREET NW", "SB 85 St between 95 - 93 Ave", "B", "95 AVENUE NW", "93 AVENUE NW", "50", "53.5297504724853", "-113.457480090443", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.5297504724853", "-113.457480090443", null, false ] ]
+, [ 571, "0E4D8B92-0D12-40E9-9C19-DA4A59E4B68A", 571, 1503688980, "393213", 1503688980, "393213", null, "2507", "118 AVENUE NW", "WB 118 Ave between 60 - 62 St", "B", "60 STREET NW", "62 STREET NW  {North of 118 Avenue}", "50", "53.5703678983286", "-113.43496831003", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.5703678983286", "-113.43496831003", null, false ] ]
+, [ 573, "B8A26D8E-C897-449F-B90F-E4FE1F5BF99D", 573, 1503688980, "393213", 1503688980, "393213", null, "2552", "106 Street NW", "SB 106 St between 48 - 45 Ave", "SB-S", "48 Avenue NW", "45 Avenue NW", "50", "53.4847589744677", "-113.504406901745", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.4847589744677", "-113.504406901745", null, false ] ]
+, [ 574, "49CB8F24-2250-44D7-B5E5-EA18F820EC23", 574, 1503688980, "393213", 1503688980, "393213", null, "2469", "132 AVENUE NW", "EB 132 Ave between 123 - 121 St", "B", "123 STREET NW", "121 STREET NW", "50", "53.5921664182618", "-113.53195634956", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.5921664182618", "-113.53195634956", null, false ] ]
+, [ 576, "9918C3F7-9FC3-41F4-9CBE-0DFD83810E1F", 576, 1503688980, "393213", 1503688980, "393213", null, "7121", "ANTHONY HENDAY DRIVE NW", "SB Anthony Henday Dr south of 100 Ave", "NB-S", "STONY PLAIN ROAD NW [Westbound] {Entrance Ramp}", "111 AVENUE NW [Eastbound]", "100", "53.5335371611152", "-113.659523755046", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.5335371611152", "-113.659523755046", null, false ] ]
+, [ 579, "272E450C-5D81-4CF0-BF13-EE5E1BD792D2", 579, 1503688980, "393213", 1503688980, "393213", null, "2518", "109 STREET NW", "SB 109 St between 110 - 108 Ave", "SB-S", "108 AVENUE NW", "110 AVENUE NW", "50", "53.5548174284918", "-113.508528957425", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.5548174284918", "-113.508528957425", null, false ] ]
+, [ 580, "74144D86-9805-4BDA-9DA1-E1E899B888D8", 580, 1503688980, "393213", 1503688980, "393213", null, "7082", "ANTHONY HENDAY DRIVE NW", "WB Anthony Henday Dr at 97 St", "WB-S", "97 STREET NW [Northbound] {Exit Ramp}", "97 STREET NW [Southbound] {Entrance Ramp}", "100", "53.6471648637875", "-113.489333644814", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.6471648637875", "-113.489333644814", null, false ] ]
+, [ 581, "92292661-847B-499E-9AF6-5D86083A7914", 581, 1503688980, "393213", 1503688980, "393213", null, "2449", "SASKATCHEWAN DRIVE NW", "EB Sask. Drive between 107 - 105 St", "B", "105 STREET NW", "107 STREET NW", "50", "53.5231254590608", "-113.503378007711", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.5231254590608", "-113.503378007711", null, false ] ]
+, [ 582, "B99B4E22-ED5A-4E9C-908F-0D8291584E07", 582, 1503688980, "393213", 1503688980, "393213", null, "2505", "118 AVENUE NW", "WB 118 Ave between Wayne Gretzky Dr - 78 St", "WB-S", "WAYNE GRETZKY DRIVE NW [Southbound]", "78 STREET NW", "50", "53.5704511372629", "-113.457260306779", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.5704511372629", "-113.457260306779", null, false ] ]
+, [ 587, "2048BCA9-BCB2-4B26-8872-DC484160EA64", 587, 1503688980, "393213", 1503688980, "393213", null, "7085", "GATEWAY BOULEVARD NW", "NB Gateway Blvd - South of Anthony Henday Dr.", "B", "ANTHONY HENDAY DRIVE NW [Eastbound] {Exit Ramp}", "ANTHONY HENDAY DRIVE NW [Westbound] {Exit Ramp}", "90", "53.4348600215261", "-113.490024559954", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.4348600215261", "-113.490024559954", null, false ] ]
+, [ 589, "7C13C2EC-123A-44AD-BB92-03D097D18048", 589, 1503688980, "393213", 1503688980, "393213", null, "2555", "MILL WOODS ROAD SOUTH NW", "EB Millwoods Rd S between Knottwood Rd E - 69 St", "B", "KNOTTWOOD ROAD EAST NW", "69 STREET NW", "50", "53.4458766115496", "-113.441229339086", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.4458766115496", "-113.441229339086", null, false ] ]
+, [ 590, "7441E808-B343-4219-BBE4-1902D4AB3024", 590, 1503688980, "393213", 1503688980, "393213", null, "7115", "170 STREET NW", "NB 170 St between 114 - 117 Ave", "NB-S", "114 AVENUE NW", "117 AVENUE NW", "60", "53.5652611509066", "-113.615187011001", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.5652611509066", "-113.615187011001", null, false ] ]
+, [ 591, "FF2A85A1-575E-4A38-A808-D068FC346FEE", 591, 1503688980, "393213", 1503688980, "393213", null, "2618", "107 AVENUE NW", "EB 107 Ave between 124 - 122 St", "B", "124 STREET NW", "122 STREET NW", "50", "53.550969117995", "-113.534161215809", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.550969117995", "-113.534161215809", null, false ] ]
+, [ 592, "B004CFC5-3E02-44CB-B251-08A6DFB6DBDE", 592, 1503688980, "393213", 1503688980, "393213", null, "2506", "118 AVENUE NW", "EB 118 Ave between 56 - 54 St", "B", "54 STREET NW", "56 STREET NW", "50", "53.570360748087", "-113.426121845141", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.570360748087", "-113.426121845141", null, false ] ]
+, [ 593, "9FCF7AFB-5A69-44AA-8A52-E8DE4D8D2F45", 593, 1503688980, "393213", 1503688980, "393213", null, "7127", "ANTHONY HENDAY DRIVE NW", "WB Anthony Henday Dr at Whitemud Creek", "WB-S", "ANTHONY HENDAY DRIVE NW [Westbound]  {East End}/ANTHONY HENDAY DRIVE NW [Westbound] {Bridge} {Whitemud Creek}", "ANTHONY HENDAY DRIVE NW [Westbound]  {West Side}/ANTHONY HENDAY DRIVE NW [Westbound] {Bridge} {Whitemud Creek}", "100", "53.4287137033773", "-113.563527058959", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.4287137033773", "-113.563527058959", null, false ] ]
+, [ 594, "E911FEDA-1C7B-4242-8727-853BBDAB66AA", 594, 1503688980, "393213", 1503688980, "393213", null, "2670", "118 AVENUE NW", "EB 118 Ave between 78 St - Wayne Gretzky Dr", "EB-S", "78 STREET NW", "WAYNE GRETZKY DRIVE NW [Southbound]", "50", "53.5702838954333", "-113.457250959482", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.5702838954333", "-113.457250959482", null, false ] ]
+, [ 595, "5A3E72FC-FA41-4158-8E57-814402E0E2A8", 595, 1503688980, "393213", 1503688980, "393213", null, "261", "YELLOWHEAD TRAIL NW", "WB Yellowhead Trail at 7710 Yellowhead Tr.", "WB-S", "FORT ROAD NW [Southbound] {Entrance Ramp}", "82 STREET NW [Northbound] {Exit Ramp}", "70", "53.5825071654083", "-113.459587832965", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.5825071654083", "-113.459587832965", null, false ] ]
+, [ 596, "7B2B2722-2378-4F93-88A3-E2449DE6E09D", 596, 1503688980, "393213", 1503688980, "393213", null, "2496", "184 STREET NW", "SB 184 St between 60 - 57 Ave", "B", "60 AVENUE NW", "57 AVENUE NW", "50", "53.4929166853775", "-113.640165682789", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.4929166853775", "-113.640165682789", null, false ] ]
+, [ 598, "B8DEC248-2EB3-46D6-AA2A-A7D64697A59F", 598, 1503688980, "393213", 1503688980, "393213", null, "2478", "76 AVENUE NW", "WB 76 Ave between 85 - 87 St", "B", "85 STREET NW  {East Intersection}", "87 STREET NW  {West Intersection}", "40", "53.512291320007", "-113.459511289999", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.512291320007", "-113.459511289999", null, false ] ]
+, [ 603, "7682EB0E-D8E6-4CF9-9743-89CA82BFF245", 603, 1503688980, "393213", 1503688980, "393213", null, "2543", "82 AVENUE NW", "EB 82 Ave between 89 - 87 St", "B", "91 STREET NW", "87 STREET NW/WHYTE AVENUE NW", "50", "53.5180266258814", "-113.464395967142", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.5180266258814", "-113.464395967142", null, false ] ]
+, [ 604, "D9C9E428-6011-425D-ACF0-5ABD0312F076", 604, 1503688980, "393213", 1503688980, "393213", null, "2783", "WHITEMUD DRIVE NW", "EB Whitemud Dr between 76 - 66 St", "EB-S", "91 STREET NW [Northbound] {Entrance Ramp}", "66 STREET NW [Northbound] {Entrance Ramp}", "60", "53.4850099773236", "-113.448016611513", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.4850099773236", "-113.448016611513", null, false ] ]
+, [ 605, "2FA6A25E-0A5B-4CC2-B3FB-6ED7B050882F", 605, 1503688980, "393213", 1503688980, "393213", null, "2681", "STONY PLAIN ROAD NW", "EB Stony Plain Rd at 133 St", "B", "134 STREET NW", "132 STREET NW", "50", "53.5462085244818", "-113.551283385212", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.5462085244818", "-113.551283385212", null, false ] ]
+, [ 607, "60E1E40D-CADB-4ED8-8E2D-999229F1105E", 607, 1504300052, "393213", 1504300052, "393213", null, "5253", "132 AVENUE NW", "EB 132 Ave between 72 - 69 St", "B", "72 STREET NW", "69 STREET NW", "30", "53.5922637345566", "-113.449968684587", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.5922637345566", "-113.449968684587", null, false ] ]
+, [ 609, "80E1519E-F4E0-4478-81A2-3E731EA38E16", 609, 1504300052, "393213", 1504300052, "393213", null, "2611", "75 STREET NW", "SB 75 St between 95 - 94 Ave", "B", "94 AVENUE NW", "95 AVENUE NW", "60", "53.5322458981771", "-113.442906694392", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.5322458981771", "-113.442906694392", null, false ] ]
+, [ 611, "B2CD4121-567B-417A-B8EB-90AA220A9871", 611, 1504300052, "393213", 1504300052, "393213", null, "5370", "132 AVENUE NW", "WB 132 Ave between 72 - 76 St", "B", "72 STREET NW", "76 STREET NW  {East Intersection}", "30", "53.5922426959642", "-113.455004381151", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.5922426959642", "-113.455004381151", null, false ] ]
+, [ 615, "A2415FD8-0CC4-4FB0-B85B-F5D7C873F13E", 615, 1504300052, "393213", 1504300052, "393213", null, "5444", "BLACKMUD CREEK DRIVE SW", "WB Blackmud Crk Dr SW btn Baker Cl-James Mowat Tr", "B", "BAKER CLOSE SW {Cul de sac} {Address 2203}", "JAMES MOWATT TRAIL SW [Northbound]", "30", "53.4209310500858", "-113.514431483319", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.4209310500858", "-113.514431483319", null, false ] ]
+, [ 619, "923C1AF9-33CB-4621-9153-ECE6EE355CDE", 619, 1504300052, "393213", 1504300052, "393213", null, "5254", "132 AVENUE NW", "WB 132 Ave between 69 - 72 St", "B", "69 STREET NW", "72 STREET NW", "30", "53.5922637345566", "-113.449968684587", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.5922637345566", "-113.449968684587", null, false ] ]
+, [ 620, "87CA9C33-7577-43AA-AE72-AE870DCEA0AC", 620, 1504300052, "393213", 1504300052, "393213", null, "2471", "132 AVENUE NW", "EB 132 Ave between 109 - 107 St", "B", "109 STREET NW", "107 STREET NW", "50", "53.592093287347", "-113.506195667984", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.592093287347", "-113.506195667984", null, false ] ]
+, [ 625, "6ED82279-3656-4625-A4EC-E27237814FCE", 625, 1504300052, "393213", 1504300052, "393213", null, "2722", "101 STREET NW", "SB 101 St between 108 - 107A Ave", "B", "108 AVENUE NW  {North Intersection}", "107 AVENUE NW  {North Intersection}", "50", "53.5522826843555", "-113.493716765594", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.5522826843555", "-113.493716765594", null, false ] ]
+, [ 630, "C0BAAB53-FF9B-4593-A6A8-762C877E60FE", 630, 1504300052, "393213", 1504300052, "393213", null, "7005", "YELLOWHEAD TRAIL NW", "EB Yellowhead Trail @ Anthony Henday Dr", "EB-S", "ANTHONY HENDAY DRIVE NW [Northbound] {Collector-Distributor}", "ANTHONY HENDAY DRIVE NW [Northbound] {Exit Ramp}", "100", "53.5735897849114", "-113.661104807953", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.5735897849114", "-113.661104807953", null, false ] ]
+, [ 637, "D530051A-A5C6-47FC-B572-CDDC50E722AC", 637, 1504300052, "393213", 1504300052, "393213", null, "5426", "105 STREET NW", "NB 105 St between 19 - 20 Ave", "B", "19 AVENUE NW", "20 AVENUE NW", "30", "53.4490460330059", "-113.500543631769", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.4490460330059", "-113.500543631769", null, false ] ]
+, [ 644, "61E8E0B6-DB20-4748-8ECA-32AC3847BD3E", 644, 1504300052, "393213", 1504300052, "393213", null, "5374", "MILL WOODS ROAD NW", "SB Millwoods Rd between Lakewood Rd N - 28 Ave", "B", "LAKEWOOD ROAD NORTH NW", "28 AVENUE NW", "30", "53.4605476892405", "-113.44841217405", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.4605476892405", "-113.44841217405", null, false ] ]
+, [ 655, "9424FA65-B0A2-4775-AF6F-036CC0BFA632", 655, 1504300052, "393213", 1504300052, "393213", null, "5416", "BEAUMARIS ROAD NW", "EB Beaumaris Rd between 109 St - 161 Ave", "B", "109 STREET NW", "161 AVENUE NW", "30", "53.6214364019183", "-113.507725632885", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.6214364019183", "-113.507725632885", null, false ] ]
+, [ 663, "18EE695F-8BFD-487D-B3C0-A5485CA510AA", 663, 1504300052, "393213", 1504300052, "393213", null, "5427", "105 STREET NW", "SB 105 St between 20 - 19 Ave", "B", "20 AVENUE NW", "19 AVENUE NW", "30", "53.4490460330059", "-113.500543631769", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.4490460330059", "-113.500543631769", null, false ] ]
+, [ 665, "060044C6-80F2-4996-924F-3B8440DCF8E3", 665, 1504300052, "393213", 1504300052, "393213", null, "5417", "BEAUMARIS ROAD NW", "WB Beaumaris Rd between 161 Ave - 109 St", "B", "161 AVENUE NW", "109 STREET NW", "30", "53.6214364019183", "-113.507725632885", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.6214364019183", "-113.507725632885", null, false ] ]
+, [ 666, "952197B8-3F30-47C7-B962-0C2C5708C30D", 666, 1504300052, "393213", 1504300052, "393213", null, "5117", "79 STREET NW", "SB 79 St between 95 - 94 Ave", "B", "95 AVENUE NW", "94 AVENUE NW", "30", "53.5319559716573", "-113.448086645393", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.5319559716573", "-113.448086645393", null, false ] ]
+, [ 674, "614EF0B4-5BF4-4497-8CCB-E0146A74D7EF", 674, 1504300052, "393213", 1504300052, "393213", null, "5050", "76 AVENUE NW", "EB 76 Ave between 114 - 113 St", "B", "114 STREET NW [Northbound]", "113 STREET NW", "30", "53.512247387126", "-113.524394130114", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.512247387126", "-113.524394130114", null, false ] ]
+, [ 687, "9E6FDE15-E543-48B7-A33B-4A7272EFFA82", 687, 1504300053, "393213", 1504300053, "393213", null, "5326", "36 AVENUE NW", "WB 36 Ave between Millwoods Rd - 78 St", "B", "MILL WOODS ROAD NW", "78 STREET NW", "30", "53.4683033041948", "-113.451562156993", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.4683033041948", "-113.451562156993", null, false ] ]
+, [ 692, "E96475A3-04C7-4039-8B6E-8E11F981369C", 692, 1504300053, "393213", 1504300053, "393213", null, "5424", "BULYEA ROAD NW", "NB Bulyea Rd between Burley Dr - Burton Rd", "B", "BURLEY DRIVE NW  {North Intersection}", "BURTON ROAD NW [Northbound]  {South Intersection}", "30", "53.4730922054655", "-113.571693791853", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.4730922054655", "-113.571693791853", null, false ] ]
+, [ 701, "721245D7-1B3D-4C9E-96A8-AE24CF3167AF", 701, 1504300053, "393213", 1504300053, "393213", null, "5375", "MILL WOODS ROAD NW", "NB Millwoods Rd between 28 Ave - Lakewood Rd N", "B", "28 AVENUE NW", "LAKEWOOD ROAD NORTH NW", "30", "53.4605476892405", "-113.44841217405", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.4605476892405", "-113.44841217405", null, false ] ]
+, [ 703, "CC7ED5C9-698C-471E-8E9D-1AE01C9E2258", 703, 1504300053, "393213", 1504300053, "393213", null, "5273", "132 AVENUE NW", "EB 132 Ave between 76 - 74 St", "B", "76 STREET NW  {East Intersection}", "74 STREET NW", "30", "53.5922417791373", "-113.456591704711", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.5922417791373", "-113.456591704711", null, false ] ]
+, [ 704, "9EC4E49B-8FB8-4534-820F-C7A28D488F59", 704, 1504300053, "393213", 1504300053, "393213", null, "2721", "101 STREET NW", "NB 101 St between 107A - 108 Ave", "B", "107 AVENUE NW  {North Intersection}", "108 AVENUE NW  {North Intersection}", "50", "53.5522826843555", "-113.493716765594", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.5522826843555", "-113.493716765594", null, false ] ]
+, [ 709, "E9BC68B6-576D-4BC9-967A-27E15759088D", 709, 1504300053, "393213", 1504300053, "393213", null, "2679", "HERMITAGE ROAD NW", "WB Hermitage Rd between Homestead Cr - Henry Ave", "WB-S", "HOMESTEAD CRESCENT NW", "HENRY AVENUE NW", "50", "53.5844483725107", "-113.40254277205", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.5844483725107", "-113.40254277205", null, false ] ]
+, [ 712, "2C3A3986-2D6D-41D8-9415-5E0D40B45D9F", 712, 1504300053, "393213", 1504300053, "393213", null, "5116", "79 STREET NW", "NB 79 St between 94 - 95 Ave", "B", "94 AVENUE NW", "95 AVENUE NW", "30", "53.5319559716573", "-113.448086645393", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.5319559716573", "-113.448086645393", null, false ] ]
+, [ 717, "AD2D09ED-E265-4FC5-BD90-A24ED249267E", 717, 1504897192, "393213", 1504897192, "393213", null, "2473", "132 AVENUE NW", "EB 132 Ave between Delwood Rd - 79 St", "B", "DELWOOD ROAD NW", "79 STREET NW", "50", "53.5922332181008", "-113.46280030604", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.5922332181008", "-113.46280030604", null, false ] ]
+, [ 735, "2CBEF670-09F9-486A-965F-7C0FB237D68D", 735, 1504897192, "393213", 1504897192, "393213", null, "2781", "149 STREET NW", "NB 149 St. Between 80 - 84 Ave", "NB-S", "80 AVENUE NW", "84 AVENUE NW", "60", "53.5158261687402", "-113.577899326502", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.5158261687402", "-113.577899326502", null, false ] ]
+, [ 739, "568381F9-4F54-46EE-ADB3-863C93A80B0F", 739, 1504897192, "393213", 1504897192, "393213", null, "5423", "182 STREET NW", "SB 182 St between 93 - 89 Ave", "B", "93 AVENUE NW", "89 AVENUE NW", "30", "53.5258213796704", "-113.63908035725", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.5258213796704", "-113.63908035725", null, false ] ]
+, [ 740, "32BD69B6-E9D9-4E3B-82A0-D6E2D348CEDC", 740, 1504897192, "393213", 1504897192, "393213", null, "7077", "ANTHONY HENDAY DRIVE NW", "WB Anthony Henday Dr at LeClair Way", "SB-S", "137 AVENUE NW [Westbound] {Entrance Ramp}/ANTHONY HENDAY DRIVE NW [Southbound] {Overpass}", "ANTHONY HENDAY DRIVE NW [Southbound]  {South Side of 137 Avenue}/ANTHONY HENDAY DRIVE NW [Southbound] {Overpass}", "100", "53.6023302049581", "-113.6273442024", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.6023302049581", "-113.6273442024", null, false ] ]
+, [ 744, "61B7F077-EA43-4F1B-B9DA-47ECF63086A5", 744, 1504897192, "393213", 1504897192, "393213", null, "2581", "ANTHONY HENDAY DRIVE NW", "EB Anthony Henday Dr at LeClair Way", "NB-S", "ANTHONY HENDAY DRIVE NW [Northbound]  {South Side of 137 Avenue Railway}/ANTHONY HENDAY DRIVE NW [Northbound] {Overpass}", "137 AVENUE NW [Westbound] {Entrance Ramp}", "100", "53.6023006081095", "-113.626331533273", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.6023006081095", "-113.626331533273", null, false ] ]
+, [ 752, "55F9556C-2914-41EC-9C8D-E9D5D07E0B65", 752, 1504897192, "393213", 1504897192, "393213", null, "2544", "101 STREET NW", "NB 101 St between 115 - 117 Ave", "B", "115 AVENUE NW", "117 AVENUE NW", "50", "53.5672984464603", "-113.493714699938", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.5672984464603", "-113.493714699938", null, false ] ]
+, [ 753, "2820784E-DC91-417C-9FF9-41FD307F8B25", 753, 1504897192, "393213", 1504897192, "393213", null, "5433", "LAKEWOOD ROAD NORTH NW", "WB Lakewood Rd N between 82 - 85 St", "B", "82 STREET NW", "85 STREET NW", "30", "53.4634460248935", "-113.45834816938", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.4634460248935", "-113.45834816938", null, false ] ]
+, [ 755, "7FB29F21-0E16-4B07-B9A4-D0272BAA692E", 755, 1504897192, "393213", 1504897192, "393213", null, "2553", "106 Street NW", "NB 106 St between 45 - 48 Ave", "NB-S", "45 Avenue NW", "48 Avenue NW", "50", "53.4847610836011", "-113.504277661298", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.4847610836011", "-113.504277661298", null, false ] ]
+, [ 756, "1BAD267D-977D-48FD-8046-B880255FA465", 756, 1504897192, "393213", 1504897192, "393213", null, "5372", "38 AVENUE NW", "WB 38 Ave between 55 - 60 St", "B", "WOODVALE ROAD EAST NW", "60 STREET NW {Cul de sac} {Address 3740-3756}", "30", "53.4720117569471", "-113.424649959195", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.4720117569471", "-113.424649959195", null, false ] ]
+, [ 758, "DAC13AE4-E4FD-470B-956D-968C582866E5", 758, 1504897192, "393213", 1504897192, "393213", null, "2731", "KINGSWAY NW", "WB Kingsway Ave btwn Princess Eliz Ave-Airport Rd", "WB-S", "PRINCESS ELIZABETH AVENUE NW", "AIRPORT ROAD NW  {East Intersection}", "60", "53.5640925536737", "-113.515912827173", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.5640925536737", "-113.515912827173", null, false ] ]
+, [ 763, "8B9AE978-BEA0-45EB-A835-755DEFE079F6", 763, 1504897192, "393213", 1504897192, "393213", null, "2744", "127 AVENUE NW", "WB 127 Ave between 88 - 90 St", "B", "88 STREET NW", "90 STREET NW", "60", "53.5847986627442", "-113.477922608325", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.5847986627442", "-113.477922608325", null, false ] ]
+, [ 777, "447451FB-5D68-4D3A-9015-E56D5C3ACBC7", 777, 1504897192, "393213", 1504897192, "393213", null, "2590", "170 STREET NW", "NB 170 St between 114 - 117 Ave", "NB-S", "114 AVENUE NW", "117 AVENUE NW", "60", "53.5652611509066", "-113.615187011001", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.5652611509066", "-113.615187011001", null, false ] ]
+, [ 787, "FA19BDF3-17A6-427F-92DB-72954B449369", 787, 1504897192, "393213", 1504897192, "393213", null, "2752", "95 AVENUE NW", "WB 95 Ave between 165 - 167 St", "WB-S", "165 STREET NW", "167 STREET NW", "50", "53.5316961437454", "-113.608927830626", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.5316961437454", "-113.608927830626", null, false ] ]
+, [ 788, "436475D4-18DF-4636-9C15-948E1EDCD731", 788, 1504897192, "393213", 1504897192, "393213", null, "2580", "ANTHONY HENDAY DRIVE NW", "WB Anthony Henday Dr at LeClair Way", "SB-S", "137 AVENUE NW [Westbound] {Exit Ramp}", "ANTHONY HENDAY DRIVE NW [Southbound]  {South Side of 137 Avenue Railway}/ANTHONY HENDAY DRIVE NW [Southbound] {Overpass}", "100", "53.6023302049581", "-113.6273442024", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.6023302049581", "-113.6273442024", null, false ] ]
+, [ 796, "71DC7693-AEFA-4776-8F16-997522E77953", 796, 1504897192, "393213", 1504897192, "393213", null, "7200", "WHITEMUD DRIVE NW", "EB Whitemud Dr between 76 - 66 St", "EB-S", "91 STREET NW [Northbound] {Entrance Ramp}", "66 STREET NW [Northbound] {Entrance Ramp}", "60", "53.4850099773236", "-113.448016611513", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.4850099773236", "-113.448016611513", null, false ] ]
+, [ 806, "D2D922D1-9108-4070-AB5B-A1B14F789B08", 806, 1504897192, "393213", 1504897192, "393213", null, "2538", "163 STREET NW", "NB 163 St between 89 - 93 Ave", "B", "89 AVENUE NW", "93 AVENUE NW", "50", "53.5260481187921", "-113.602770750531", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.5260481187921", "-113.602770750531", null, false ] ]
+, [ 810, "7BD271D3-76E4-4F7E-86B1-69A5170788A6", 810, 1504897192, "393213", 1504897192, "393213", null, "5422", "182 STREET NW", "NB 182 St between 89 - 93 Ave", "B", "89 AVENUE NW", "93 AVENUE NW", "30", "53.5258213796704", "-113.63908035725", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.5258213796704", "-113.63908035725", null, false ] ]
+, [ 816, "1455FA02-E6D7-4E62-BB44-C8337FADE12B", 816, 1504897192, "393213", 1504897192, "393213", null, "5425", "BULYEA ROAD NW", "SB Bulyea Rd between Burton Rd - Buchanan Rd", "B", "BURTON ROAD NW [Northbound]  {South Intersection}", "BURLEY DRIVE NW  {North Intersection}", "30", "53.4730922054655", "-113.571693791853", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.4730922054655", "-113.571693791853", null, false ] ]
+, [ 818, "91EFDC67-038B-40D7-A1EC-0ADFE25BF1A3", 818, 1504897192, "393213", 1504897192, "393213", null, "5011", "11A AVENUE NW", "EB 11A Ave between 58 - 56 St", "B", "58 STREET NW/ 11A AVENUE NW  {Address 5728-5743}", "56 STREET NW/ 11A AVENUE NW  {Address 5605-5606}", "30", "53.4404628607624", "-113.427236856532", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.4404628607624", "-113.427236856532", null, false ] ]
+, [ 819, "05A3EB08-1995-44B1-93A3-D6110CD26AED", 819, 1504897192, "393213", 1504897192, "393213", null, "2645", "142 STREET NW", "SB 142 St between 96 - 95 Ave", "B", "95 AVENUE NW  {South Intersection}", "96 AVENUE NW", "60", "53.5325777394982", "-113.565569029262", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.5325777394982", "-113.565569029262", null, false ] ]
+, [ 824, "98C87667-1DDF-4D55-A8FE-6560CC0F375E", 824, 1504897192, "393213", 1504897192, "393213", null, "5012", "11A AVENUE NW", "WB 11A Ave between 56 - 58 St", "B", "56 STREET NW/ 11A AVENUE NW  {Address 5605-5606}", "58 STREET NW/ 11A AVENUE NW  {Address 5728-5743}", "30", "53.4404628607624", "-113.427236856532", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.4404628607624", "-113.427236856532", null, false ] ]
+, [ 825, "F57F64FD-B0F9-48FB-A812-5F5689922BFF", 825, 1504897192, "393213", 1504897192, "393213", null, "2726", "111 AVENUE NW", "WB 111 Ave between 113 - 116 St", "WB-S", "113 STREET NW", "116 STREET NW", "60", "53.5589408517921", "-113.518567845057", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.5589408517921", "-113.518567845057", null, false ] ]
+, [ 829, "A35E070F-DAC1-4280-BEE1-A82D9594C319", 829, 1504897192, "393213", 1504897192, "393213", null, "2564", "107 AVENUE NW", "EB 107 Ave between 139 - 136 St", "B", "139 STREET NW", "136 STREET NW", "60", "53.5509618159034", "-113.558852660425", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.5509618159034", "-113.558852660425", null, false ] ]
+, [ 831, "33A94250-7090-4633-A131-B357B3BAABE6", 831, 1504897192, "393213", 1504897192, "393213", null, "2510", "142 AVENUE NW", "EB 142 Ave between 127 - 122 St", "B", "127 STREET NW", "122 STREET NW", "50", "53.604177969432", "-113.536387348452", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.604177969432", "-113.536387348452", null, false ] ]
+, [ 833, "7A576616-819D-4990-B26F-C862D8A736FA", 833, 1504897192, "393213", 1504897192, "393213", null, "5432", "LAKEWOOD ROAD NORTH NW", "EB Lakewood Rd N between 85 - 82 St", "B", "85 STREET NW", "82 STREET NW", "30", "53.4634460248935", "-113.45834816938", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.4634460248935", "-113.45834816938", null, false ] ]
+, [ 838, "A728D3BC-895C-44C9-AB9C-18D4448C0439", 838, 1504897192, "393213", 1504897192, "393213", null, "2562", "39 AVENUE NW", "EB 39 Ave between 97 - 93 St", "B", "97 STREET NW", "93 STREET NW", "50", "53.4741107063277", "-113.476389521366", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.4741107063277", "-113.476389521366", null, false ] ]
+, [ 839, "06BBA706-FC94-4479-9B0A-139CFF8B0520", 839, 1504897192, "393213", 1504897192, "393213", null, "2472", "132 AVENUE NW", "WB 132 Ave between 103 - 105 St", "B", "103 STREET NW", "105 STREET NW", "50", "53.5920617065209", "-113.498998414278", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.5920617065209", "-113.498998414278", null, false ] ]
+, [ 844, "D03FA0EC-6643-414A-B942-E91AC8F0C9D0", 844, 1504897192, "393213", 1504897192, "393213", null, "2524", "106 STREET NW", "NB 106 St between 35 - 36A Ave", "NB-S", "35 AVENUE NW", "36A AVENUE NW", "50", "53.4698341249129", "-113.504052261904", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.4698341249129", "-113.504052261904", null, false ] ]
+, [ 845, "18C09503-3C84-49A5-B86F-D683B82CE2DB", 845, 1504897192, "393213", 1504897192, "393213", null, "2644", "142 STREET NW", "NB 142 St between Valleyview Dr - 95 Ave", "B", "VALLEYVIEW DRIVE NW", "95 AVENUE NW  {North Intersection}", "60", "53.5299877970415", "-113.565589868999", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.5299877970415", "-113.565589868999", null, false ] ]
+, [ 846, "96B83E60-057E-4AAC-82E8-3D26E1466C94", 846, 1505503575, "393213", 1505503575, "393213", null, "2537", "51 AVENUE NW", "WB 51 Ave between 116 - 122 St", "WB-S", "116 STREET NW", "122 STREET NW [Northbound] {Right Turn Cutoff}", "50", "53.4883478214019", "-113.536110906035", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.4883478214019", "-113.536110906035", null, false ] ]
+, [ 847, "40362C21-1B9C-49AB-A71E-DBF86F788E96", 847, 1505503575, "393213", 1505503575, "393213", null, "2527", "RIVERBEND ROAD NW", "NB Riverbend Rd between 43 - 45 Ave", "NB-S", "43 AVENUE NW", "45 AVENUE NW", "50", "53.4817826067996", "-113.579591163594", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.4817826067996", "-113.579591163594", null, false ] ]
+, [ 848, "4D58E8AE-8C1F-4F91-A90D-863997BB8BA8", 848, 1505503575, "393213", 1505503575, "393213", null, "5020", "37 STREET NW", "SB 37 St between 34 - 30 Ave", "B", "34 AVENUE NW [Eastbound]", "30 AVENUE NW", "30", "53.4618893058723", "-113.398552421558", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.4618893058723", "-113.398552421558", null, false ] ]
+, [ 849, "A1E53BF9-A76C-42DE-B220-D88DD1B6FAFB", 849, 1505503575, "393213", 1505503575, "393213", null, "2734", "137 AVENUE NW", "EB 137 Ave between 63 - 61 St", "EB-S", "63 STREET NW", "61 STREET NW", "60", "53.599476419578", "-113.437012549814", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.599476419578", "-113.437012549814", null, false ] ]
+, [ 850, "5D670938-8C50-4994-A877-1A7A62117E43", 850, 1505503575, "393213", 1505503575, "393213", null, "2655", "95 AVENUE NW", "EB 95 Ave between 154 - 152 St", "B", "154 STREET NW", "152 STREET NW", "50", "53.5315338514284", "-113.585054576202", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.5315338514284", "-113.585054576202", null, false ] ]
+, [ 851, "B2E5D664-F9BA-4694-8B8F-29521ED1DBC3", 851, 1505503575, "393213", 1505503575, "393213", null, "2720", "107 AVENUE NW", "EB 107 Ave between 113 - 110 St", "B", "113 STREET NW", "110 STREET NW", "50", "53.5514085527823", "-113.513024751889", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.5514085527823", "-113.513024751889", null, false ] ]
+, [ 852, "21BF7940-BD37-49F6-8BF3-FCC68980FE86", 852, 1505503575, "393213", 1505503575, "393213", null, "2695", "GROAT ROAD NW", "SB Groat Rd between Emily Murphy Park Rd - 87 Ave", "SB-S", "EMILY MURPHY PARK ROAD NW [Eastbound] {Exit Ramp}", "87 AVENUE NW", "60", "53.5280088172266", "-113.540380756063", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.5280088172266", "-113.540380756063", null, false ] ]
+, [ 853, "CC6A0E23-8B66-4E1B-A898-358F74BE2173", 853, 1505503575, "393213", 1505503575, "393213", null, "5063", "40 AVENUE NW", "WB 40 Ave between 115A - 119 St", "WB-S", "115A STREET NW", "119 STREET NW [Northbound] {Right Turn Cutoff}", "30", "53.4763917611666", "-113.535191019", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.4763917611666", "-113.535191019", null, false ] ]
+, [ 854, "4736B169-B51D-48D5-B8CE-3328CB43911F", 854, 1505503575, "393213", 1505503575, "393213", null, "2468", "132 AVENUE NW", "WB 132 Ave between 119 - 121 St", "B", "119 STREET NW", "121 STREET NW/132 AVENUE NW  {Address 12011-12015}", "50", "53.5921584284233", "-113.528601632082", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.5921584284233", "-113.528601632082", null, false ] ]
+, [ 855, "DF48EBFB-C37D-44C1-9B0D-EAD79F40B687", 855, 1505503575, "393213", 1505503575, "393213", null, "2470", "132 AVENUE NW", "WB 132 Ave between 91 - 95 St", "B", "91 STREET NW  {West Intersection}", "95 STREET NW", "50", "53.5920918371692", "-113.484877811934", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.5920918371692", "-113.484877811934", null, false ] ]
+, [ 856, "061F506A-D971-4EA3-9090-F44FBB9A69B4", 856, 1505503575, "393213", 1505503575, "393213", null, "2719", "107 AVENUE NW", "WB 107 Ave between 110 - 113 St", "B", "110 STREET NW", "113 STREET NW", "50", "53.5514085527823", "-113.513024751889", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.5514085527823", "-113.513024751889", null, false ] ]
+, [ 857, "1C4B1E6F-3884-4ED6-8D84-232BB1B3E62F", 857, 1505503575, "393213", 1505503575, "393213", null, "2477", "132 AVENUE NW", "EB 132 Ave between 72 - 68 St", "B", "72 STREET NW", "68 STREET NW", "50", "53.5922649892675", "-113.449218190159", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.5922649892675", "-113.449218190159", null, false ] ]
+, [ 858, "E6DD6C72-8528-4E60-9A1B-AE64C2C99543", 858, 1505503575, "393213", 1505503575, "393213", null, "2796", "159 STREET NW", "SB 159 St between 87 Ave - Whitemud Dr", "B", "87 AVENUE NW [Eastbound] {Right Turn Cutoff}/159 STREET NW  {South of 87 Avenue}", "WHITEMUD DRIVE NW [Westbound]  {North of}", "60", "53.5159826332597", "-113.596702695239", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.5159826332597", "-113.596702695239", null, false ] ]
+, [ 859, "1DB3676E-2FE1-4AF9-BC11-00A536CDB36F", 859, 1505503575, "393213", 1505503575, "393213", null, "5377", "KNOTTWOOD ROAD EAST NW", "NB Knottwood Rd E between 17 - 19 Ave", "B", "17 AVENUE NW", "19 AVENUE NW", "30", "53.4484508968204", "-113.440489587765", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.4484508968204", "-113.440489587765", null, false ] ]
+, [ 860, "4EB4759A-E395-44D5-BE39-D9A106D9C624", 860, 1505503575, "393213", 1505503575, "393213", null, "5044", "19A AVENUE NW", "WB 19A Ave between 56 - 57 St", "B", "56 STREET NW", "57 STREET NW", "30", "53.4507394459104", "-113.427538127284", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.4507394459104", "-113.427538127284", null, false ] ]
+, [ 861, "64905E32-3904-40AE-BCD2-256C9630B69B", 861, 1505503575, "393213", 1505503575, "393213", null, "2603", "137 AVENUE NW", "WB 137 Ave between 58 - 63 St", "WB-S", "58 STREET NW", "63 STREET NW", "60", "53.5996067411071", "-113.434708806074", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.5996067411071", "-113.434708806074", null, false ] ]
+, [ 862, "3CCFC679-4451-43C1-9D21-FAA491BC6769", 862, 1505503575, "393213", 1505503575, "393213", null, "5445", "91 STREET NW", "NB 91 St between 86 - 88 Ave", "B", "86 AVENUE NW", "88 AVENUE NW  {West Intersection}", "30", "53.5227115085624", "-113.467441390861", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.5227115085624", "-113.467441390861", null, false ] ]
+, [ 863, "F368D65D-E4F3-4EDE-9212-5118D0B95924", 863, 1505503575, "393213", 1505503575, "393213", null, "5046", "12 AVENUE NW", "EB 12 Ave between 45 - 39 St", "B", "45 STREET NW", "39 STREET NW", "30", "53.4402924374762", "-113.405977926665", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.4402924374762", "-113.405977926665", null, false ] ]
+, [ 864, "A9B6CEE1-A26A-4111-BC91-B33C4DEF716C", 864, 1505503575, "393213", 1505503575, "393213", null, "5376", "KNOTTWOOD ROAD EAST NW", "SB Knottwood Rd E between 72 St - 19 Ave", "B", "72 STREET NW/KNOTTWOOD ROAD EAST NW  {Address 1453-1482}", "19 AVENUE NW/KNOTTWOOD ROAD EAST NW  {Address 1404-1449}", "30", "53.4503634615354", "-113.441203351536", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.4503634615354", "-113.441203351536", null, false ] ]
+, [ 865, "89259AE4-CF5E-45EE-A97E-300B204BFFBF", 865, 1505503575, "393213", 1505503575, "393213", null, "2577", "144 AVENUE NW", "EB 144 Ave between 94 - 92 St", "EB-S", "94 STREET NW", "92 STREET NW", "50", "53.6060323838232", "-113.483791020075", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.6060323838232", "-113.483791020075", null, false ] ]
+, [ 866, "B225DAF7-9CB8-4F76-A1F6-3C4D117BFF74", 866, 1505503575, "393213", 1505503575, "393213", null, "5438", "MILL WOODS ROAD EAST NW", "SB Millwoods Rd E between 18 - 17 Ave", "B", "18 AVENUE NW", "17 AVENUE NW", "30", "53.4480965015541", "-113.404555590061", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.4480965015541", "-113.404555590061", null, false ] ]
+, [ 867, "19A7EB81-9F20-4643-B0E1-D37D5C4F7D60", 867, 1505503575, "393213", 1505503575, "393213", null, "5385", "MILLBOURNE ROAD EAST NW", "NB Millbourne Rd E between 36A Ave - Lee Ridge Rd", "B", "36A AVENUE NW", "LEE RIDGE ROAD NW  {North Intersection}", "30", "53.4713870517891", "-113.444145394938", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.4713870517891", "-113.444145394938", null, false ] ]
+, [ 868, "2410C890-D171-4DA5-A80E-B9D6A9CEC410", 868, 1505503575, "393213", 1505503575, "393213", null, "5325", "36 AVENUE NW", "EB 36 Ave between 78 St - Millwoods Rd", "B", "78 STREET NW", "MILL WOODS ROAD NW", "30", "53.4683033041948", "-113.451562156993", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.4683033041948", "-113.451562156993", null, false ] ]
+, [ 869, "ED498240-9BBF-48A8-A5DF-3B4A9154E760", 869, 1505503575, "393213", 1505503575, "393213", null, "5045", "19A AVENUE NW", "EB 19A Ave between 57 - 56 St", "B", "57 STREET NW", "56 STREET NW", "30", "53.4507394459104", "-113.427538127284", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.4507394459104", "-113.427538127284", null, false ] ]
+, [ 870, "4D9CA9EF-9498-49A5-A74C-A3D37A878601", 870, 1505503575, "393213", 1505503575, "393213", null, "5067", "RUTHERFORD ROAD SW", "NB Rutherford Rd SW btwn 16 - 14 Ave SW", "B", "RUTHERFORD WAY SW", "RUTHERFORD POINT SW {Cul de sac} {Address 1704}", "30", "53.4195878065228", "-113.536336088569", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.4195878065228", "-113.536336088569", null, false ] ]
+, [ 871, "736EDAF6-99F4-4992-885C-1B19EF62600D", 871, 1505503575, "393213", 1505503575, "393213", null, "2294", "100 STREET NW", "SB 100 St btwn 160 - 157 Ave", "B", "160 AVENUE NW", "157 AVENUE NW", "50", "53.6197217220708", "-113.496178482212", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.6197217220708", "-113.496178482212", null, false ] ]
+, [ 872, "C947828D-4D87-4439-AA3A-F8F885816EC0", 872, 1505503575, "393213", 1505503575, "393213", null, "5371", "38 AVENUE NW", "EB 38 Ave between 60 - 55 St", "B", "60 STREET NW {Cul de sac} {Address 3740-3756}", "WOODVALE ROAD EAST NW", "30", "53.4720117569471", "-113.424649959195", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.4720117569471", "-113.424649959195", null, false ] ]
+, [ 873, "43F3EAD3-432B-466D-B2C3-744EB702261C", 873, 1505503575, "393213", 1505503575, "393213", null, "2578", "79 STREET NW", "NB 79 St between 82 - 90 Ave", "B", "82 AVENUE NW {Service Road} {North Intersection}", "90 AVENUE NW", "50", "53.5216819479102", "-113.449059760333", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.5216819479102", "-113.449059760333", null, false ] ]
+, [ 874, "D72DE57C-7179-4E5F-903D-97CCC66685FC", 874, 1505503575, "393213", 1505503575, "393213", null, "5047", "12 AVENUE NW", "WB 12 Ave between 39 - 45 St", "B", "39 STREET NW", "45 STREET NW", "30", "53.4402924374762", "-113.405977926665", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.4402924374762", "-113.405977926665", null, false ] ]
+, [ 875, "3305F588-823B-418E-9FAB-84950DBC08C8", 875, 1505503575, "393213", 1505503575, "393213", null, "2499", "184 STREET NW", "NB 184 St between 57 Ave - Callingwood Rd", "B", "57 AVENUE NW", "CALLINGWOOD ROAD NW [Eastbound]", "50", "53.49358965611", "-113.640165932339", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.49358965611", "-113.640165932339", null, false ] ]
+, [ 876, "1CBAC4E1-CA0F-4CFD-A58F-00EB2E6097CF", 876, 1505503575, "393213", 1505503575, "393213", null, "7062", "YELLOWHEAD TRAIL NW", "EB Yellowhead Tr btwn 121 - 107 Street", "EB-S", "121 STREET NW [Northbound] {Right Turn Cutoff}", "107 STREET NW [Southbound]", "70", "53.5814521921988", "-113.515645674248", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.5814521921988", "-113.515645674248", null, false ] ]
+, [ 877, "632C0977-4F77-4ABB-ABDC-A2D221AD4DB9", 877, 1505503575, "393213", 1505503575, "393213", null, "2671", "163 STREET NW", "SB 163 St between 93 - 92 Ave", "B", "93 AVENUE NW", "92 AVENUE NW", "50", "53.5275390241082", "-113.602746108927", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.5275390241082", "-113.602746108927", null, false ] ]
+, [ 878, "C9FFE0D2-E814-46E4-AF8B-C54DBB769DE1", 878, 1505503575, "393213", 1505503575, "393213", null, "247", "YELLOWHEAD TRAIL NW", "WB Yellowhead Trail at 50 St", "WB-S", "50 STREET NW [Northbound] {Exit Ramp}", "50 STREET NW [Southbound] {Entrance Ramp}", "80", "53.5824886205462", "-113.418818053907", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.5824886205462", "-113.418818053907", null, false ] ]
+, [ 879, "51F2540A-4B5E-4553-A9C4-683866FFE810", 879, 1505503575, "393213", 1505503575, "393213", null, "7167", "91 STREET NW", "NB 91 St between Anthony Henday Dr - 23 Ave", "NB-S", "ANTHONY HENDAY DRIVE NW [Westbound] {Right Turn Cutoff} {North of}", "23 AVENUE NW [Eastbound] {Right Turn Cutoff} {South of 23 Avenue}", "70", "53.4458073496193", "-113.466358732711", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.4458073496193", "-113.466358732711", null, false ] ]
+, [ 880, "CB664A2D-CC5D-4C32-A80B-D3C4A7C33A7B", 880, 1505503575, "393213", 1505503575, "393213", null, "5019", "37 STREET NW", "NB 37 St between 30 - 34 Ave", "B", "30 AVENUE NW", "34 AVENUE NW [Eastbound]", "30", "53.4618893058723", "-113.398552421558", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.4618893058723", "-113.398552421558", null, false ] ]
+, [ 881, "778BA47C-C8A3-4F0E-A3C8-12A474064826", 881, 1505503575, "393213", 1505503575, "393213", null, "5437", "MILL WOODS ROAD EAST NW", "NB Millwoods Rd E between 17 - 18 Ave", "B", "17 AVENUE NW", "18 AVENUE NW", "30", "53.4480965015541", "-113.404555590061", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.4480965015541", "-113.404555590061", null, false ] ]
+, [ 882, "BE8D476D-F6C9-434F-80CA-90D2B2A8FA0B", 882, 1505503575, "393213", 1505503575, "393213", null, "5066", "RUTHERFORD ROAD SW", "SB Rutherford Rd SW btwn 14 - 15 Ave SW", "B", "RUTHERFORD POINT SW {Cul de sac} {Address 1704}", "15 AVENUE SW", "30", "53.420101378148", "-113.536327929113", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.420101378148", "-113.536327929113", null, false ] ]
+, [ 883, "B3C7677E-192A-4B72-8510-790C268DABF5", 883, 1505503575, "393213", 1505503575, "393213", null, "2530", "144 AVENUE NW", "WB 144 Ave between 77 - 79 St", "WB-S", "77 STREET NW", "79 STREET NW", "50", "53.6069780173147", "-113.461816129378", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.6069780173147", "-113.461816129378", null, false ] ]
+, [ 884, "6EAABF32-04A1-4F73-A207-6C84A4A18B76", 884, 1505503575, "393213", 1505503575, "393213", null, "2511", "142 AVENUE NW", "WB 142 Ave between 122 - 127 St", "B", "122 STREET NW", "127 STREET NW", "50", "53.604177969432", "-113.536387348452", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.604177969432", "-113.536387348452", null, false ] ]
+, [ 885, "E8654F52-0186-4C32-8CFF-4B9BD7C27EB6", 885, 1505503575, "393213", 1505503575, "393213", null, "2684", "85 STREET NW", "NB 85 St between 93 - 95 Ave", "B", "93 AVENUE NW", "95 AVENUE NW", "50", "53.5297504724853", "-113.457480090443", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.5297504724853", "-113.457480090443", null, false ] ]
+, [ 886, "FF5B609B-0336-403B-8456-510E6848A560", 886, 1505503575, "393213", 1505503575, "393213", null, "5062", "40 AVENUE NW", "EB 40 Ave between 119 - 117 St", "EB-S", "119 STREET NW [Northbound] {Right Turn Cutoff}", "117 STREET NW", "30", "53.4762787439058", "-113.536724546735", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.4762787439058", "-113.536724546735", null, false ] ]
+, [ 887, "58BBAC5C-A94F-4AEE-A765-1D354C2DB969", 887, 1505503575, "393213", 1505503575, "393213", null, "5386", "MILLBOURNE ROAD EAST NW", "SB Millbourne Rd E between Lee Ridge Rd - 36A Ave", "B", "LEE RIDGE ROAD NW  {North Intersection}", "36A AVENUE NW", "30", "53.4713870517891", "-113.444145394938", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.4713870517891", "-113.444145394938", null, false ] ]
+, [ 888, "259274DB-29EF-4ED5-8073-60022E425A3E", 888, 1505503575, "393213", 1505503575, "393213", null, "2202", "OTTEWELL ROAD NW", "NB Ottewell Rd between 95 - 96A Ave", "B", "95 AVENUE NW", "96A AVENUE NW", "40", "53.5343369453826", "-113.436949983645", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.5343369453826", "-113.436949983645", null, false ] ]
+, [ 889, "72E79972-277E-472D-97B0-8AD667B9F856", 889, 1505503575, "393213", 1505503575, "393213", null, "5446", "91 STREET NW", "SB 91 St between 88 - 86 Ave", "B", "88 AVENUE NW  {West Intersection}", "86 AVENUE NW", "30", "53.5227115085624", "-113.467441390861", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.5227115085624", "-113.467441390861", null, false ] ]
+, [ 890, "B3155962-E51B-4C0E-9A03-AE46E4F05833", 890, 1505503575, "393213", 1505503575, "393213", null, "2588", "51 AVENUE NW", "WB 51 Ave between 114 - 116 St", "WB-S", "116 STREET NW", "114 STREET NW", "50", "53.4883216437902", "-113.527825356666", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.4883216437902", "-113.527825356666", null, false ] ]
+, [ 891, "5D7CCB7D-2764-454F-ABE2-9702889C6B2F", 891, 1505503575, "393213", 1505503575, "393213", null, "2766", "FORT ROAD NW", "SB Fort Rd between 131 - 128 Ave", "SB-S", "131 AVENUE NW", "64 STREET NW", "50", "53.5881877369597", "-113.43641161292", [ "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}", "53.5881877369597", "-113.43641161292", null, false ] ]
+ ]
+}
